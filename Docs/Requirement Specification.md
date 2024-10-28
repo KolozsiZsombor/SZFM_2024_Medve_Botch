@@ -5,19 +5,19 @@
 ## 2. Dream Situation
 // TBD //
 ## 3. Game Overview
-// TBD //
-### 3.1. Game Concept
-// TBD //
-### 3.1.1. Idea
-// Provide a brief description of the game’s concept, including its setting, storyline, and unique selling points. //
+The game takes place in 3 different worlds, each world consisting of 10 levels. The levels are randomly generated from premade rooms. Each level consists of at least 2 rooms with enemies that must be cleared in order to progress to the next level, every other level (levels: 1, 3, 5, 7, 9) will have a shop where players can buy different items like weapons or utilites such as a health potions, or energy potions. All levels will have a chance of generating a challange room that will reward the player if completed, but is not necessary to clear in order to progress to the next level. The player will be able to get upgrades and skills throgthroughout their journey. Every worlds 5th level will have a mini boss, and each world will end with a big boss on level 10. After beating the final boss on world 3 level 10 the player will be given a certificate with the time they took to beat the final boss, the weapon(s) they had on them, the character they used to beat the game and the date and time when they completed the game.
 
-### 3.2. Gameplay mechanics
+### 3.1. Gameplay mechanics
 // TBD //
-### 3.2.1. Weapons
+### 3.1.1. Weapons
 // TBD //
-### 3.2.2. Enemies
+### 3.1.2. Enemies
 // TBD //
-### 3.2.3. Different Maps, and terrain, like ice,grass, that make moving/seeing different from the base.
+### 3.1.2. Skills, Abilities and Upgrades
+- #### 3.1.2.1 Skills
+- #### 3.1.2.1 Abilities
+- #### 3.1.2.1 Upgrades
+### 3.1.3. Different Maps, and terrain, like ice,grass, that make moving/seeing different from the base.
 
 ### 3.3 Game World
 - Anything that resembles the earth, is known to man-kind, not scifi.

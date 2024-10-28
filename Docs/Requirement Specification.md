@@ -26,9 +26,21 @@ The game takes place in 3 different worlds, each world consisting of 10 levels. 
 ## 4. Main Requirements
 
 ### 4.1 User Interface (UI)
-- // TBD // Main Menu: Describe the layout, options, and functionality.
-- // TBD // In-game HUD: Specify the information displayed to the player during gameplay.
-- // TBD // Settings Menu: Detail options for audio, controls, and graphics settings.
+- Main Menu: Game title on top, followed by New Game, Continue Game, Options, and Quit, in a vertical layout.
+- In-game HUD: Player HP bar with numbers at the top left corner. Below that is the energy/ammo bar.
+- Enemy HP displayed above the enemy, boss HP displayed on top of screen.
+- Settings Menu: Audio is split into music and effects, with options Full, Reduced, and Off.
+- Players can set up their keyboard controls. Graphics settings are a simple Particles on/off.
+### 4.2 Characters
+- // TBD // Playable Characters: List character traits, abilities, and customization options.
+- Enemies:
+	- Dwarf: Simple meelee-based enemy, walks towards player and attacks when close. Medium HP.
+	- Wolf: Lunges towards player, and uses bite attack. Low HP.
+	- Trapper: Jumps around and can drop mines. The mines can be shot to set them off from afar. Medium HP, but mines kill it in one hit.
+	- Turret: Stationary, limited attack angle, projectile-based enemy. High HP.
+	- Wasp: Flying critter, approaches the player and stings, then flies away. Low HP.
+- NPCs:
+	- Shopkeeper: Offers new weapons, potions, and items. Has friendly dialogue. Human.
 ### 4.2 Characters
 - // TBD // Playable Characters: List character traits, abilities, and customization options.
 - // TBD // Non-Playable Characters (NPCs): Describe their roles, behaviors, and interactions with the player.

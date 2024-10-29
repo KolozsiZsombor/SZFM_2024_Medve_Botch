@@ -8,15 +8,47 @@
 The game takes place in 3 different worlds, each world consisting of 10 levels. The levels are randomly generated from premade rooms. Each level consists of at least 2 rooms with enemies that must be cleared in order to progress to the next level, every other level (levels: 1, 3, 5, 7, 9) will have a shop where players can buy different items like weapons or utilites such as a health potions, or energy potions. All levels will have a chance of generating a challange room that will reward the player if completed, but is not necessary to clear in order to progress to the next level. The player will be able to get upgrades and skills throgthroughout their journey. Every worlds 5th level will have a mini boss, and each world will end with a big boss on level 10. After beating the final boss on world 3 level 10 the player will be given a certificate with the time they took to beat the final boss, the weapon(s) they had on them, the character they used to beat the game and the date and time when they completed the game.
 
 ### 3.1. Gameplay mechanics
-// TBD //
-### 3.1.1. Weapons
-// TBD //
-### 3.1.2. Enemies
-// TBD //
-### 3.1.2. Skills, Abilities and Upgrades
-- #### 3.1.2.1 Skills
-- #### 3.1.2.1 Abilities
-- #### 3.1.2.1 Upgrades
+While the main game loop will consist of shooting and scooting there will be plenty of other mechanics for the player to enjoy.
+- #### 3.1.1. Weapons
+	- Standard assault rifle
+	- Elemental damage infused assault rifle
+	- Light machine gun
+	- Submachine gun
+	- Standard issue sniper rifle
+	- Anti-materiel rifle
+	- Assault carbine
+	- Designated marksman rifle
+	- Grenade launcher
+	- Rocket launcher
+	- Multiple melee weapons
+	- Bow
+	- Crossbow
+	- Laser weapons
+	- Plasma cannon
+- #### 3.1.2. Enemies
+	- <b> See below at 4.2 </b>
+- #### 3.1.2. Skills, Abilities and Upgrades
+    - ##### <b> Skills are aquired by playing through the game and selecting them after specific levels:</b>
+      - Elemental damage imuunity
+      - Increased maximum helth
+      - Increased maximum energy
+      - Increased maximum shields
+      - Increased movement speed
+      - Flight / levitation
+      - Life steal
+      - Extra energy on enemy kill
+      - Shop price reduction
+      - Faster weapon charge rate
+      - 
+	- ##### <b> Abilities are character specific and cannot be changed, can only have one.</b>
+	- ##### <b> Upgrades can be put on any compatible weapon, while most of them can stack there are some that you can only have one of.</b>
+    	- Elemental damage upgrades (mutually exclusive).
+    	- Fire rate increase (stacks)
+    	- Damage increase (stacks)
+    	- Energy requirement reduction (doesn't stack)
+    	- Accuracy increase (stacks)
+- #### 3.1.3 Missions/Quests
+    - <b> // TBD // </b>
 ### 3.1.3. Different Maps, and terrain, like ice,grass, that make moving/seeing different from the base.
 
 ### 3.3 Game World
@@ -41,13 +73,6 @@ The game takes place in 3 different worlds, each world consisting of 10 levels. 
 	- Wasp: Flying critter, approaches the player and stings, then flies away. Low HP.
 - NPCs:
 	- Shopkeeper: Offers new weapons, potions, and items. Has friendly dialogue. Human.
-### 4.2 Characters
-- // TBD // Playable Characters: List character traits, abilities, and customization options.
-- // TBD // Non-Playable Characters (NPCs): Describe their roles, behaviors, and interactions with the player.
-### 4.3 Game Mechanics
-- // TBD // Combat System: Outline the mechanics of combat, including weapons, skills, and enemy behaviors.
-- // TBD // Inventory System: Describe how items are collected, stored, and used.
-- // TBD // Progression System: Detail leveling up, skill trees, and other progression mechanics.
 ### 4.4 Missions/Quests
 - // TBD // Main Quests: Outline the primary objectives and story progression.
 - // TBD // Side Quests: Describe optional tasks that provide additional gameplay.

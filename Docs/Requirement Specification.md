@@ -2,11 +2,11 @@
 
 ## 1. Current Situation
 
-// TBD //
+Curretnly there are no games that fit all our needs. Some games are close to our needs but they are either missing features we would like to have or are on the wrong platform. This means that we are constantly jumping between games and can never just choose one to play and stick with for an extended period of time before choosing another one. This problem only gets more complicated when we want to play together since not all of the games support co-op and even fever support online co-op.
 
 ## 2. Dream Situation
 
-// TBD //
+The goal is to create a game with all the features of games we have played previously and all the featrues we would liked to have when playing those games. By creating our own game we will be able to modify it to suit our needs and wants even when they change. Creating our own game will also mean in wont be monetized in any way and can be played by anyone.
 
 ## 3. Game Overview
 

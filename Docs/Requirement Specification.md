@@ -36,7 +36,7 @@ While the main game loop will consist of shooting and scooting there will be ple
 
 - #### **3.1.2. Enemies**
 
-    - **See below at 4.2**
+  - **See below at 4.2**
 
 - #### 3.1.2. Skills, Abilities and Upgrades
 
@@ -58,7 +58,7 @@ While the main game loop will consist of shooting and scooting there will be ple
 
 - ##### **Upgrades can be put on any compatible weapon, while most of them can stack there are some that you can only have one of:**
 
-  - Elemental damage upgrades (mutually exclusive).
+  - Elemental damage upgrades (mutually exclusive)
   - Fire rate increase (stacks)
   - Damage increase (stacks)
   - Energy requirement reduction (doesn't stack)

@@ -67,8 +67,7 @@ While the main game loop will consist of shooting and scooting there will be ple
 - #### 3.1.3 Missions/Quests
 
   - **// TBD //**
-
-### 3.1.3. Different Maps, and terrain, like ice,grass, that make moving/seeing different from the base
+  - **// 3.1.3. Different Maps, and terrain, like ice,grass, that make moving/seeing different from the base //**
 
 ### 3.3 Game World
 
@@ -107,7 +106,7 @@ While the main game loop will consist of shooting and scooting there will be ple
 
 ### 4.5 Audio and Visuals
 
-- // TBD //  Graphics: Specify the art style, resolution, and platforms.
+- // TBD //  Graphics: Specify the art style- Pixel graphics, resolution.
 - // TBD // Sound Design: Outline the audio elements, including background music, sound effects, and voice acting.
 
 ## 5. Other Requirements
@@ -122,7 +121,7 @@ While the main game loop will consist of shooting and scooting there will be ple
 
 ### 5.3 Usability
 
-- // TBD // Describe usability standards, accessibility features, and player onboarding processes.
+- // TBD // Describe usability standards, accessibility features, and player onboarding processes. Tutorial/Colorblind mode.
 
 ### 5.4 Security
 

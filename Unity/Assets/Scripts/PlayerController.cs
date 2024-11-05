@@ -1,40 +1,59 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float horizontal;
-    private float speed = 8f;
-    private float jumpingForce = 16f;
+    public float moveSpeed = 5f;
+    public float jumpForce = 10f;
+    public float playerHeight;
+    public bool isGrounded;
+    private Rigidbody2D rb;
 
-    [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
-    // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        float horizontalInput = Input.GetAxis("Horizontal");
+
+        float speed = 10f;
+
+        Move(horizontalInput, speed);
+
+        if (isGrounded && Input.GetButtonDown("Jump"))
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpingForce);
+            Jump();
         }
+    }
 
-        if (Input.GetButtonUp("Jump") && IsGrounded())
+    void FixedUpdate()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, -Vector2.up, distance: math.INFINITY);
+
+        if (hit && hit.distance < 2f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            isGrounded = true;
         }
+        else { isGrounded = false; }
+
+
+
     }
 
-    private void FixedUpdate()
+    void Move(float horizontalInput, float speed)
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        Vector2 moveVelocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+        rb.velocity = moveVelocity;
     }
 
-    private bool IsGrounded()
+    void Jump()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
     }
+
 }

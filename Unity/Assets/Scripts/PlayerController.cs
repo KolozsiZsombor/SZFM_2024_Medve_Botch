@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         RaycastHit2D hit = Physics2D.Raycast(rb.position, -Vector2.up, distance: math.INFINITY);
 
-        if (hit && hit.distance < 2f)
+        if (hit && hit.distance < 1.1f)
         {
             isGrounded = true;
         }

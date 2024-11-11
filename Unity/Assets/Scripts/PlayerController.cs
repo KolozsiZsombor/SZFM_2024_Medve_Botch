@@ -33,16 +33,13 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        RaycastHit2D hit = Physics2D.Raycast(rb.position, -Vector2.up, distance: math.INFINITY);
+        RaycastHit2D hit = Physics2D.CircleCast(rb.position, 0.5f, -Vector2.up, distance: math.INFINITY);
 
-        if (hit && hit.distance < 1.1f)
+        if (hit && hit.distance < 0.75f)
         {
             isGrounded = true;
         }
         else { isGrounded = false; }
-
-
-
     }
 
     void Move(float horizontalInput, float speed)

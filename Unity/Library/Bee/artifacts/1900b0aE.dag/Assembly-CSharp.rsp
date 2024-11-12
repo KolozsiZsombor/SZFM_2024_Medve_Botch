@@ -385,6 +385,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Interfaces/iDamageable.cs"
+"Assets/Scripts/AutomaticDoor.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/PlayerAimAndShoot.cs"
 "Assets/Scripts/PlayerController.cs"

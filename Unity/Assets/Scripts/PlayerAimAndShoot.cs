@@ -8,6 +8,7 @@ public class PlayerAimAndShoot : MonoBehaviour
     [SerializeField] private GameObject bullet;
     [SerializeField] private Transform bulletSpawn;
     [SerializeField] private float attackSpeed = 0.25f;
+    [SerializeField] private float spread = 15f;
     private GameObject bulletInst;
     private Vector2 worldPosition;
     private Vector2 direction;
@@ -54,10 +55,10 @@ public class PlayerAimAndShoot : MonoBehaviour
     private void HandleGunShooting()
     {
         timeSinceLastShot = timeSinceLastShot + Time.deltaTime;
-        if ((Input.GetMouseButtonDown(0) || Input.GetMouseButton(0)) && timeSinceLastShot > attackSpeed)
+        if (Input.GetMouseButton(0) && timeSinceLastShot > attackSpeed)
         {
-
-            bulletInst = Instantiate(bullet, bulletSpawn.position, weapon.transform.rotation);
+            bulletSpawn.localRotation = Quaternion.Euler(new Vector3(bulletSpawn.localRotation.x,bulletSpawn.localRotation.y,Random.Range(-spread,spread)));
+            bulletInst = Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation);
             timeSinceLastShot = 0f;
         }
 

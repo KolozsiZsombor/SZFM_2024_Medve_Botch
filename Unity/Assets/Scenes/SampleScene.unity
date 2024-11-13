@@ -2384,7 +2384,7 @@ GameObject:
   - component: {fileID: 851572229}
   - component: {fileID: 851572228}
   m_Layer: 3
-  m_Name: Square (29)
+  m_Name: Hazard2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3076,7 +3076,7 @@ GameObject:
   - component: {fileID: 1122092447}
   - component: {fileID: 1122092446}
   m_Layer: 3
-  m_Name: Square (33)
+  m_Name: Hazard3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3466,7 +3466,7 @@ GameObject:
   - component: {fileID: 1210904997}
   - component: {fileID: 1210904996}
   m_Layer: 3
-  m_Name: Square (18)
+  m_Name: Hazard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4158,6 +4158,8 @@ MonoBehaviour:
   weapon: {fileID: 42371551}
   bullet: {fileID: 6622987382947844244, guid: 7e601750a36ac5e42a30389f40e33626, type: 3}
   bulletSpawn: {fileID: 1734400036}
+  attackSpeed: 0.25
+  spread: 15
 --- !u!1 &1496091030
 GameObject:
   m_ObjectHideFlags: 0
@@ -5359,13 +5361,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734400035}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.12645654, y: -0.18614505, z: 0.54752547, w: 0.80596197}
   m_LocalPosition: {x: 0.5, y: 0, z: 0}
   m_LocalScale: {x: 0.6666667, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 42371553}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -26.01, z: 68.38}
 --- !u!1 &1772281258
 GameObject:
   m_ObjectHideFlags: 0

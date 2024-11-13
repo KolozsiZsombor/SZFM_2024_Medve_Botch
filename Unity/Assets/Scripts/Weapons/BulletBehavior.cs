@@ -10,6 +10,7 @@ public class BulletBehavior : MonoBehaviour
     [SerializeField] private float destroyTime = 3f;
     [SerializeField] private LayerMask whatDestroysBullets;
     [SerializeField] private float bulletDamage = 5f;
+
     [Header("Normal Bullet Stats")]
 
     [SerializeField] private float velocity = 10f;
@@ -26,11 +27,10 @@ public class BulletBehavior : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+       
+        InitializeBulletStats();
 
         SetDestroyTime();
-
-        InitializeBulletStats();
-        
     }
     private void InitializeBulletStats()
     {

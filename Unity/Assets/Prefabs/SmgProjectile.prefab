@@ -166,7 +166,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 136
   bulletDamage: 5
-  velocity: 5
+  velocity: 20
   gravVelocity: 10
   gravity: 1
   bulletType: 0

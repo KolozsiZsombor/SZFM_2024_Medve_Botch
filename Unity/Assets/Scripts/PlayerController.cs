@@ -7,8 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
-    public float playerHeight;
-    public bool isGrounded;
+    private bool isGrounded;
+    public LayerMask layerMask;
     private Rigidbody2D rb;
 
     void Start()
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        RaycastHit2D hit = Physics2D.CircleCast(rb.position, 0.5f, -Vector2.up, distance: math.INFINITY);
+        RaycastHit2D hit = Physics2D.CircleCast(rb.position, 0.5f, -Vector2.up, distance: math.INFINITY, layerMask);
 
         if (hit && hit.distance < 0.75f)
         {
@@ -51,6 +51,17 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.tag == "Door")
+        {
+            if (other.GetComponent<AutomaticDoor>().Moving == false)
+            {
+                other.GetComponent<AutomaticDoor>().Moving = true;
+            }
+        }
     }
 
 }

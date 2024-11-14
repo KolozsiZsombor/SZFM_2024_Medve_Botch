@@ -15,7 +15,7 @@ C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54104
+59611
 Successfully changed project path to: C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
 C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2508] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1358804562 [EditorId] 1358804562 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R1ES5OM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21208] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2782918988 [EditorId] 2782918988 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R1ES5OM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2508] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1358804562 [EditorId] 1358804562 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R1ES5OM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21208] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2782918988 [EditorId] 2782918988 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R1ES5OM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 19.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 15.42 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008883 seconds.
-- Loaded All Assemblies, in  0.660 seconds
+Registered in 0.013359 seconds.
+- Loaded All Assemblies, in  0.574 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.488 seconds
-Domain Reload Profiling: 1145ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 1004ms
+	BeginReloadAssembly (172ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (112ms)
-	LoadAllAssembliesAndSetupDomain (254ms)
-		LoadAssemblies (203ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (170ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (249ms)
-				TypeCache.ScanAssembly (230ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (186ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (488ms)
+	FinalizeReload (433ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
+		SetupLoadedEditorAssemblies (331ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (16ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (258ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,85 +115,56 @@ Domain Reload Profiling: 1145ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.330 seconds
-Refreshing native plugins compatible for Editor in 6.82 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.361 seconds
+Refreshing native plugins compatible for Editor in 5.77 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.540 seconds
-Domain Reload Profiling: 2866ms
-	BeginReloadAssembly (234ms)
+- Finished resetting the current domain, in  1.397 seconds
+Domain Reload Profiling: 2753ms
+	BeginReloadAssembly (377ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (951ms)
-		LoadAssemblies (638ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (758ms)
+		LoadAssemblies (642ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (441ms)
-			TypeCache.Refresh (368ms)
-				TypeCache.ScanAssembly (338ms)
-			ScanForSourceGeneratedMonoScriptInfo (56ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1541ms)
+		AnalyzeDomain (311ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1398ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1250ms)
+		SetupLoadedEditorAssemblies (1140ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (137ms)
-			ProcessInitializeOnLoadAttributes (978ms)
-			ProcessInitializeOnLoadMethodAttributes (110ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (894ms)
+			ProcessInitializeOnLoadMethodAttributes (120ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 7.96 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 7.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5775 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 100 unused Assets / (0.9 MB). Loaded Objects now: 6222.
-Memory consumption went from 225.8 MB to 224.9 MB.
-Total: 6.949800 ms (FindLiveObjects: 0.503100 ms CreateObjectMapping: 0.743300 ms MarkObjects: 5.031100 ms  DeleteObjects: 0.669500 ms)
+Memory consumption went from 225.9 MB to 225.0 MB.
+Total: 7.430000 ms (FindLiveObjects: 0.628900 ms CreateObjectMapping: 1.034000 ms MarkObjects: 5.024000 ms  DeleteObjects: 0.740600 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 883441.198388 seconds.
-  path: Assets/Prefabs/World1/W1_SmallRoom_1.prefab
-  artifactKey: Guid(eb6cdbea8e73b714cbae730dab4b03a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_SmallRoom_1.prefab using Guid(eb6cdbea8e73b714cbae730dab4b03a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b8c9c4529080834ee4355e5c169457') in 0.415697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 137
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (0.9 MB). Loaded Objects now: 6311.
-Memory consumption went from 117.5 MB to 116.7 MB.
-Total: 6.511400 ms (FindLiveObjects: 0.431500 ms CreateObjectMapping: 0.279300 ms MarkObjects: 5.344300 ms  DeleteObjects: 0.454900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -209,409 +180,753 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 967.636773 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 07.prefab
-  artifactKey: Guid(91aebb278b095f843a6d4213d7df47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 07.prefab using Guid(91aebb278b095f843a6d4213d7df47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc61ca5f007eb1154d72fb0f1ba5d03') in 0.043827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.447367 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X4.prefab
-  artifactKey: Guid(5e8d23661846f4140b8492397ab54a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X4.prefab using Guid(5e8d23661846f4140b8492397ab54a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68758de82d292d98aa9b063598b51430') in 0.031724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 726.422031 seconds.
-  path: Assets/Prefabs/World1/W1_StartTile_1.prefab
-  artifactKey: Guid(f56d6657889850a4dba785b834c2eb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_StartTile_1.prefab using Guid(f56d6657889850a4dba785b834c2eb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e1c894f003b8aadc6029ff74ac8ba4') in 0.092001 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 322
-========================================================================
-Received Import Request.
-  Time since last request: 12.370423 seconds.
+  Time since last request: 900932.842889 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70d75e1e37067bfae6b78def0e27bb9') in 0.002739 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017750d023b184557e05c65b6f91f2d2') in 0.553329 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 92
 ========================================================================
 Received Import Request.
-  Time since last request: 2686.204793 seconds.
+  Time since last request: 14.895812 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac59200640ef8bb9ad5d9c3db0ee0210') in 0.041920 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8832e4173faef44536034547c90672') in 0.052498 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 100
 ========================================================================
 Received Import Request.
-  Time since last request: 7.596298 seconds.
+  Time since last request: 5.213378 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd771bfb6a1af61f3850705dd88fbbd5c') in 0.014818 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccf96ba5726d766a9fff3d35911e0e0') in 0.050506 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 100
 ========================================================================
 Received Import Request.
-  Time since last request: 3.361399 seconds.
+  Time since last request: 7.267567 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcdb7aadfa118b2aa3be5b66a72fafb') in 0.011907 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d29c439215d613841884d92c836ffb') in 0.049953 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 41.513411 seconds.
+  Time since last request: 11.749626 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5e8b1ce1e4f34ada605c82ec1f3e8d') in 0.032461 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0a26357c01f6fb4e433cbf0d30b46a') in 0.053252 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 2.199872 seconds.
+  Time since last request: 12.904998 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febab85d50e487ca33549523c8867f55') in 0.034693 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a6af90415b65652e104a79eebc4ece') in 0.056334 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 2.012745 seconds.
+  Time since last request: 4.413026 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4237971f6be468a5fb05d7d800154f8') in 0.035639 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7244b5b01b84f0fe714d62c401d788f7') in 0.051226 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 1.724966 seconds.
+  Time since last request: 6.002103 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c812f9be5eeb2bbc206e79b57335283c') in 0.029940 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a210631d2d4ee88122f2fd9900753c72') in 0.067309 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 104
 ========================================================================
 Received Import Request.
-  Time since last request: 2.068133 seconds.
+  Time since last request: 5.479168 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c357b58648cdee342948a1a9b1973248') in 0.045811 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7465e824442f7f33955fe5915378b198') in 0.055260 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 104
 ========================================================================
 Received Import Request.
-  Time since last request: 1.544588 seconds.
+  Time since last request: 0.550506 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0742dcbf514aab6f356a64b2927615a9') in 0.032377 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3584ee4e8b0266f5292ad18204273e') in 0.048696 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 1.846349 seconds.
+  Time since last request: 14.890914 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0569264ff9fb7b692d65f1e9c7ab36c6') in 0.052742 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfc0cd4d912f1e7e17c8919cb3113a0') in 0.043701 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 3.761351 seconds.
+  Time since last request: 5.484550 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5885a191c89d5ada67e2825fe98791b') in 0.031200 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdbbf7bcf8d25579183428b53b27d1e') in 0.065541 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 4.456523 seconds.
+  Time since last request: 2.559650 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce78e09c2c2ed328c06090052f1626fd') in 0.032370 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e47328856a635d2ee878d5df635a19c') in 0.053351 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 7.455912 seconds.
+  Time since last request: 0.986827 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c2c1f9371edd65a47c77bc381a07af') in 0.032006 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9beaaf23cffc5e59ee3bedccb2e5e77a') in 0.048751 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 16.250458 seconds.
+  Time since last request: 0.961746 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cef1a17e77cf0f47f9572768e171c35') in 0.032373 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9886e9621bee5832e05ca1cf8073bf') in 0.049667 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 4.039945 seconds.
+  Time since last request: 5.608714 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c877c1f595e7bcc1ce2c54257568f21') in 0.032015 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c44bbb053739f78ac328fd311d7da6c') in 0.055590 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 7.861121 seconds.
+  Time since last request: 19.001090 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9ba350474ff961a4ef60f7a3effbfd') in 0.027321 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6625c6dc7b3c07a19f483c1e80fba12') in 0.065547 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 102
 ========================================================================
 Received Import Request.
-  Time since last request: 1.613657 seconds.
+  Time since last request: 9.105378 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4ffd63ae6494ad64343a1206a26b19') in 0.035019 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bdae6f9f909ce6f0747b93fe690d42') in 0.055165 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 104
 ========================================================================
 Received Import Request.
-  Time since last request: 45.493499 seconds.
+  Time since last request: 17.163515 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267b55569b927586edab8030a0bc6562') in 0.029664 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b8c4091799ac363d70384c9b0c60f5') in 0.080739 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 104
 ========================================================================
 Received Import Request.
-  Time since last request: 5.486806 seconds.
+  Time since last request: 0.939700 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3fb72d296d032cc73f0d45dd12b039') in 0.048083 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54877e09ed3a53510838c7e094b78233') in 0.066601 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 104
 ========================================================================
 Received Import Request.
-  Time since last request: 1.343045 seconds.
+  Time since last request: 4.652842 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc585edf05d5420c387f67a0a5f3aabe') in 0.043117 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef465817359fdfc86557f33a879420c') in 0.051619 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
+Number of asset objects unloaded after import = 104
 ========================================================================
 Received Import Request.
-  Time since last request: 4.445169 seconds.
+  Time since last request: 1.355263 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d8b7e9b13b4d121450b476a5d47b05') in 0.038283 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bbc17c412b30b4d42754b2b8961ff7') in 0.053042 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
+Number of asset objects unloaded after import = 104
 ========================================================================
 Received Import Request.
-  Time since last request: 185.685497 seconds.
+  Time since last request: 1.621189 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cc52c890449b01f19f6d52f2284cd8') in 0.033155 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663062da5d752bca17f733e0b73b72e8') in 0.049016 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 106
 ========================================================================
 Received Import Request.
-  Time since last request: 1.607771 seconds.
+  Time since last request: 1.971892 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d00d697a719d8390c939889b906cb28') in 0.037199 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8cf741b325df2b5d17cd862632ea49') in 0.039377 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 106
 ========================================================================
 Received Import Request.
-  Time since last request: 2.256873 seconds.
+  Time since last request: 33.664521 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bc329cf74676d26900382e698b229d') in 0.034571 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581ac57cc58a7701a3fb2209e19f2453') in 0.049671 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 106
 ========================================================================
 Received Import Request.
-  Time since last request: 3.586934 seconds.
+  Time since last request: 12.266113 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9563d2d8d197bd077ee8004652cb83ad') in 0.035672 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a984a3b4cc7e9820d8affabb57ed190') in 0.049585 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 106
 ========================================================================
 Received Import Request.
-  Time since last request: 2.640659 seconds.
+  Time since last request: 6.768762 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2513f8c4b9fbddd6ef12a3bfe0717c21') in 0.038426 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338bbd94467b137c9149fbc17ecd9cac') in 0.052042 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 108
 ========================================================================
 Received Import Request.
-  Time since last request: 8.353657 seconds.
+  Time since last request: 239.564381 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d0308e6812488d2a2181ff820e4280') in 0.052871 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c39fa3419b0beb0e1071b888f32b22') in 0.066217 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 7.603203 seconds.
+  Time since last request: 7.246726 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db8cf4387405d10b0fa343e7d10f283') in 0.031659 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7237c5a32c010ccf6908103cd940ac16') in 0.059438 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 2.485149 seconds.
+  Time since last request: 6.054107 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a894f429f59734ce9dad35c1abb4c7') in 0.064832 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0e255a98fc6e27b40fbf79c22e4a7d') in 0.044239 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 4.689444 seconds.
+  Time since last request: 31.266435 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d241da0e0be98ad1785e17d1eacc19c') in 0.042964 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19739c75ccc7b8a4111ad7cede8c2c1e') in 0.049954 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 3.560843 seconds.
+  Time since last request: 3.800467 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2449773c4385ce03790f08d5efc77bd0') in 0.039114 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e41dd6fb5bb750ca720ec6f27d352b0') in 0.049915 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 1.739133 seconds.
+  Time since last request: 4.615477 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6d7e293d5a1f45cd19545fcfcf82de') in 0.034571 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf84e0228a0f1850562a11c2571a6322') in 0.058691 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 1.623881 seconds.
+  Time since last request: 1.410876 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c968538c2608b4cc85162f2cba3222f3') in 0.042438 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96a87ee1d94572b8f03c95c510b4d23') in 0.062363 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 4.189447 seconds.
+  Time since last request: 24.392830 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfe51c96349004ccc2b1881f5707c12') in 0.039021 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec47b7128b9a36a8e93d87246de1bfd') in 0.079868 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 5.263786 seconds.
+  Time since last request: 12.577987 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee44f025e6def695689723695a2704a') in 0.039946 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3dadab4929e1997c2c9aa1daf5be13a') in 0.055737 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 6.290121 seconds.
+  Time since last request: 7.292392 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f0de76f8ba451165bad73d440596de') in 0.035706 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f805e3088e4563645f976699ea10f0') in 0.054154 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 2.450076 seconds.
+  Time since last request: 1.969291 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e345eec7dda08a4d8fc7131ef17eefa') in 0.040183 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc04a3dcf9e549d3992d2d30672adaff') in 0.069154 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 5.964407 seconds.
+  Time since last request: 3.206311 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226ee35b49c4c22964437d3f60856644') in 0.037908 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4c2405ef4bcd57d72f30e08db63e13') in 0.058296 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 17.251042 seconds.
+  Time since last request: 2.547532 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4bba9b179caeef6f20416adec92451') in 0.033471 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbb5d41c591d0d19e2414896f792381') in 0.059487 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 5.248633 seconds.
+  Time since last request: 1.240904 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5869b39facf02228c7ead9595b660fff') in 0.038302 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdcb090fc8acf827d978f62f60c766b') in 0.067360 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 2.684811 seconds.
+  Time since last request: 2.511185 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1162617df718d51afdfaec73ab74b959') in 0.034635 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a40d6676e445a948de569a5afedd84') in 0.060332 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 2.556344 seconds.
+  Time since last request: 6.175046 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b13625545206538cf7d3db969f29ab0') in 0.041739 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e570dbbfc331f8f03c29a2b0d401cea1') in 0.087003 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 24.581501 seconds.
+  Time since last request: 10.296429 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38ebe9d7582a79537de0f540a359816b') in 0.052027 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708a4dc5f0cfde791f2cb09c2234e3ec') in 0.055989 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 9.259709 seconds.
+  Time since last request: 4.577326 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e63ed03b6dbecf76ea0cb25ca556014') in 0.039954 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00bc2072803e4ec8182a6251c8a3867') in 0.054345 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 6.181319 seconds.
+  Time since last request: 6.485722 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d7dc29fd23aae5d08f50a7b3ae7d2d') in 0.051009 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad4135867107867e714f9c22de52fb6') in 0.059536 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 2.323510 seconds.
+  Time since last request: 2.572754 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c55e7c60524603390f2c9777be2434') in 0.035156 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d769785843e044936b15c53b4956eb0') in 0.088931 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
 ========================================================================
 Received Import Request.
-  Time since last request: 40.985066 seconds.
+  Time since last request: 2.106463 seconds.
   path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
   artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506d62294322933f8e7882d4d1919505') in 0.048109 seconds
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c031624a48378b1e9f3ad38f3b5ea5') in 0.050218 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 3.792128 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f07374b52967a64144664a0549ad32') in 0.056405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.754851 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f61ab4e49f7d4897b693ffa4b50b19f') in 0.053847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 3.267539 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa44a099d12c145b6257d2d7b13340c7') in 0.052034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.759824 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4685086c5de7c2dff675ecf1bb383212') in 0.058023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 11.713397 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb0be145c2e740011d65759755a836f') in 0.058514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 4.057120 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501e39558c5ffd63cf89e588f158ad66') in 0.059711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 12.679668 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df18b4de0c64fce0e782cb93937c8349') in 0.070516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.928439 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9919ce8659441f4fa5de62df113c646') in 0.067901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 3.331482 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00029d1e63f7ab75d30a6f50ced09f9') in 0.054578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 3.237621 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6294a0effaff1f77179af4e49973f5') in 0.105372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.690165 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bec3da57b2f578515d62e064227dd1') in 0.063382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.696610 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d696d9efa176c74e224753ee4260a1b') in 0.050388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 5.007731 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b803b684f75e7bdddd790592f70bc12d') in 0.050614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 2.787276 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc1041aabafa001b684a6056f977ef3') in 0.059198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 3.000043 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd615ae358b411577aef2750c01c204') in 0.052349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.753274 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8144d429afb7915eb0537539a0d3fa') in 0.080795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 2.323609 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7afe0dabcda4572a3f475a077341382') in 0.046644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 2.406454 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689391b97b1913da25b4735b896a3e5b') in 0.054327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 2.985009 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27eb20c99664645b59d04cfb1a5b162') in 0.084236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 2.541864 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cbe93416aa07e3f7ecc7d510ad48c0') in 0.047954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 9.924621 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb75cdbfc6ba1f968470a8f320a0072a') in 0.079694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 15.996270 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769389f1098aabcaf65b2955ae3fbeff') in 0.066803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 10.001807 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3643750ccbc8e833e2ae2062f80fb4a') in 0.085963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 20.483908 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587cd24cd98b440cca16a3625bee202a') in 0.053671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 12.094483 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd50c8bb1f772986c9a055151a655e5b') in 0.052127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 4.861592 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d0037e3a16d57a1e1b9b1b6ef2cb5a') in 0.091770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 3.905100 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582b0a21eff4573f45d5e8d03ed88e66') in 0.055547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 2.828508 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a6a9c7067a8c2ab8627a8a0ee28567') in 0.050450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 18.087331 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a4826d928a29ded537ed7a6b38d335') in 0.052244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 5.226628 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98f3eac2fccda755245568487c868df') in 0.049850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 7.431588 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ea1bf3fc07b74c7b36d57430be7cdf') in 0.051191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.824606 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a848fa5ab9132dc1b0be5cccc1dd1449') in 0.086728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.695845 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467ece6f718a2fd97e7b3bdec17657c3') in 0.051511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.522267 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c5683c0d9508a5e9efbf8aa37b15f8') in 0.066439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.314386 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d63b55edae67f589fbe2e94ff960c5') in 0.064424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.517316 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c492657cc00fe58a114981a0c5ea6a') in 0.054540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.764147 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1806656149a9171e794d0bdd08ad69a4') in 0.053788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 2.004764 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43e160d23c1c3d8ef58359d83b791e4') in 0.067679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.305998 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c2bed2afc3d5cad37639a93ddfd7eb') in 0.092115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.509775 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe18942907e9cbbdd082f701e4edc26b') in 0.058499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.791909 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d8b0d10d2ee258bbc280c2f4bb0af7') in 0.064836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.886041 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a51ccea7ab9f746794cd499b4ce116') in 0.062878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.395816 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0afeb754bc08c85a8631f6a919c067b') in 0.059605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.684180 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dec0241f3b2388e71ff00328853d00') in 0.054523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.315733 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ac1e3a58c17ca76c93bcfc0fb416b4') in 0.052850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 0.370661 seconds.
+  path: Assets/Prefabs/World1/W1_LargeRoom_1.prefab
+  artifactKey: Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/World1/W1_LargeRoom_1.prefab using Guid(5b08cb5c6e3691142abfc6f6bb3eef82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410eb405cb87aeac0a23e7acedf9a586') in 0.049495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116

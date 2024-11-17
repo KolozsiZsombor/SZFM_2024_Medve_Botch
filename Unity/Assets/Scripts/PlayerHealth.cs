@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -20,5 +21,20 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+        if (currentHealth<=0.1)
+        {
+            Die();
+        }
+
+    }
+
+    private void Die()
+    {
+        //add death animation
+        // go back to main menu
+        //for now it resets scene
+        Scene thisScene=SceneManager.GetActiveScene();
+        SceneManager.LoadScene(thisScene.name);
+
     }
 }

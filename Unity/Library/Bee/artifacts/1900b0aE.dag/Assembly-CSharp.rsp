@@ -430,10 +430,14 @@
 "Assets/Interfaces/iDamageable.cs"
 "Assets/Scripts/AutomaticDoor.cs"
 "Assets/Scripts/ButtonScript.cs"
+"Assets/Scripts/DamagePlayerOnContact.cs"
 "Assets/Scripts/Enemy Scripts/Enemy.cs"
 "Assets/Scripts/Enemy Scripts/EnemyPatrol.cs"
+"Assets/Scripts/EnergyBar.cs"
+"Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/PlayerAimAndShoot.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/Weapons/BulletBehavior.cs"
 -langversion:9.0
 

@@ -355,6 +355,7 @@ GameObject:
   - component: {fileID: 4232738442197525089}
   - component: {fileID: 3204265772646584595}
   - component: {fileID: -4914350073674173075}
+  - component: {fileID: 2217059355330245081}
   m_Layer: 7
   m_Name: EnemyFly
   m_TagString: Untagged
@@ -536,6 +537,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affc131a8059b284ba22fb451dea83ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &2217059355330245081
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5384149522220142980}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &7622362964557800879
 GameObject:
   m_ObjectHideFlags: 0

@@ -433,6 +433,7 @@
 "Assets/Scripts/DamagePlayerOnContact.cs"
 "Assets/Scripts/Enemy Scripts/Enemy.cs"
 "Assets/Scripts/Enemy Scripts/EnemyPatrol.cs"
+"Assets/Scripts/EnemyBulletScript.cs"
 "Assets/Scripts/EnergyBar.cs"
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/PlayerAimAndShoot.cs"

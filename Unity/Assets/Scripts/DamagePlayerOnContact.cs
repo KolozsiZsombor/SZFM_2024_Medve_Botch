@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class DamagePlayerOnContact : MonoBehaviour
 {
+    [SerializeField] private int damageAmount;
     private PlayerHealth playerHealth;
+    [SerializeField] private bool isBullet=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +29,13 @@ public class DamagePlayerOnContact : MonoBehaviour
         {
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(1);
+                playerHealth.TakeDamage(damageAmount);
             }
         }
+        if (isBullet)
+        {
+            Destroy(gameObject);
+        }
     }
+
 }

@@ -54,21 +54,27 @@
 
 ## **5. Audio**
 - **Sound Design**:
-  - Ambient sounds, sound effects.
+  - Satisfying attack and hit effects.
+  - Environmental sounds (e.g., dripping water in mines, lava bubbling in underworld).
 - **Music**:
-  - Background tracks, theme songs.
+  - Overworld: Bright and adventurous tones.
+  - Mines: Tense, echoing themes.
+  - Underworld: Intense, ominous tracks.
 - **Voice Acting** (if applicable):
-  - Characters or narrator dialogue.
+  - Grunts and small audio cues for characters and NPCs.
 
 ---
 
 ## **6. Technical Systems**
-- **Engine**: [e.g., Unreal Engine, Unity, Custom Engine].
-- **Physics**: Mechanics for movement, collision, etc.
-- **AI**: Behavior systems for NPCs and enemies.
+- **Engine**: Unity
+- **Physics**:
+  - Precise platforming mechanics.
+  - Knockback effects during combat.
+- **AI**:
+  - Enemy patterns vary by type (e.g., ranged, melee, or swarm).
+  - Bosses with complex attack cycles.
 - **Multiplayer** (if applicable):
-  - Networking, matchmaking, server infrastructure.
-
+  - Not applicable for this project.
 ---
 
 ## **7. Progression Systems**

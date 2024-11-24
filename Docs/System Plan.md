@@ -1,23 +1,29 @@
 # **Video Game System Plan**
 
 ## **1. Game Overview**
-- **Title**: 
-- **Genre**: 
-- **Platform**:
-- **Target Audience**: 
-- **Core Concept**:
+- **Title**:  Medvebocsi
+- **Genre**: Roguelike-Metroidvania Platformer
+- **Platform**: PC, Console
+- **Target Audience**: Fans of roguelikes, platformers, and retro-inspired games; ages 13+
+- **Core Concept**: Players descend deeper into a hostile world, battling enemies, collecting items, and defeating bosses to unlock new content and achieve faster times. The focus is on replayability, discovery, and competition through speedrunning.
 
 ---
 
 ## **2. Gameplay Mechanics**
 - **Core Gameplay Loop**:
-  - **Player Objectives**: 
-  - **Challenges**: 
-  - **Rewards**: 
+  - **Player Objectives**: Explore procedurally generated rooms, defeat enemies, find items and weapons, and defeat bosses.
+  - **Challenges**: Fight increasingly tough enemies, navigate platforming obstacles, and manage resources effectively.
+  - **Rewards**: Unlock new characters, items, weapons, and leaderboard rankings for speedrunning.
 - **Control Scheme**:
-  - Input methods: 
+  - Movement: WASD or arrow keys.
+  - Attack: Primary and secondary attack buttons.
+  - Skills: Hotkey or controller button mapping.
+  - Jump/Dash: Dedicated buttons for precision movement.
 - **Key Features**:
-  - Special mechanics or standout gameplay elements
+  - Procedurally generated levels for high replayability.
+  - Diverse weapons and skills with unique effects.
+  - Hidden secrets and rooms to reward exploration.
+  - A leaderboard for speedrun competition.
 
 ---
 

@@ -78,26 +78,36 @@
 ---
 
 ## **7. Progression Systems**
-- **Leveling**:
-- **Unlockables**: 
+- **Leveling**: No traditional leveling; progression through item collection and skill acquisition.
+- **Unlockables**:
+  - New characters with unique abilities.
+  - Weapons and items unlocked for future runs.
 - **Economy**:
+  - In-game currency for shops and item upgrades.
+  - Rare drops from enemies and secret rooms.
 - **Achievements**:
-
+  - Speedrun milestones.
+  - Collecting all secrets.
+  - Boss-specific achievements.
 ---
 
 ## **8. Monetization Plan**
-- **Pricing Model**: Free-to-play
+- **Pricing Model**: Premium one-time purchase.
+- **In-Game Purchases**: None (focus on complete experience with no microtransactions).
+- **Ads**: Not applicable.
 
 ---
 
 ## **9. Testing and Optimization**
 - **QA Plan**:
-  - Alpha/Beta testing stages.
-  - Bug tracking and fixes.
+  - Internal alpha testing to refine gameplay mechanics.
+  - Closed beta testing for user feedback on level generation and difficulty.
 - **Performance Optimization**:
-  - Framerate, load times, platform compatibility.
+  - Smooth gameplay with stable frame rates on low-end PCs and consoles.
+  - Optimized loading for procedurally generated rooms.
 - **User Feedback**:
-  - Surveys, focus groups.
+  - Focus groups with fans of roguelike and Metroidvania genres.
+  - Feedback forms after beta testing.
 
 ---
 

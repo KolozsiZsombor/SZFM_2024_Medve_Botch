@@ -28,25 +28,27 @@
 ---
 
 ## **3. Story and Worldbuilding**
-- **Setting**: 
-- **Plot**: 
+- **Setting**: A mysterious world split into three layers—Overworld, Mines, and Underworld—each with distinct enemies, visuals, and hazards.
+- **Plot**: The player assumes the role of an explorer trying to reach the bottom of the world to uncover its secrets and escape a looming threat.
 - **Characters**:
-  - Protagonist(s)
-  - Antagonist(s)
-  - Supporting Characters
-- **Lore**:
+  - **Protagonist**: A nameless adventurer (player character) with multiple unlockable variations.
+  - **Antagonist**: A mysterious force or entity driving the descent into chaos.
+  - **Supporting NPCs**: Shopkeepers, secretive guides, and other minor characters offering lore and aid.
+- **Lore**: The world has deteriorated due to ancient corruption, with treasures and secrets buried in its depths. Hidden relics tell the story of what came before.
+
 
 ---
 
 ## **4. Art and Design**
-- **Art Style**: 
+- **Art Style**: Retro-inspired 2D pixel art with vibrant, atmospheric colors for each layer.
 - **Assets**:
-  - Character models
-  - Environment designs
-  - Items/Objects
+  - Detailed sprites for enemies, bosses, items, and characters.
+  - Unique environments for Overworld (lush), Mines (dark/rocky), and Underworld (fiery).
+  - Dynamic animations for attacks, jumps, and environmental hazards.
 - **UI/UX**:
-  - Interface layout and navigation design.
-  - Accessibility features.
+  - Minimalist HUD with health, stamina, and inventory display.
+  - Accessible inventory and map system.
+  - Intuitive menus for item/character selection.
 
 ---
 

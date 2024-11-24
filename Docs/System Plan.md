@@ -112,21 +112,43 @@
 ---
 
 ## **10. Marketing and Launch**
-- **Branding**: Logo, tagline, promotional materials.
+- **Branding**:
+  - Logo: A stylized descending symbol representing the layers of the world.
+  - Tagline: "How deep will you go?"
+  - Promotional Materials: Animated trailers showcasing gameplay highlights, boss battles, and speedrun potential.
 - **Community Engagement**:
-  - Social media, forums, and events.
+  - Social Media: Regular updates on development progress via Twitter, Instagram, and TikTok.
+  - Forums: A dedicated subreddit and Discord server for fans to share strategies and compete on leaderboards.
+  - Events: A pre-launch demo at gaming conventions or online showcases.
 - **Launch Plan**:
-  - Early access, pre-orders, full release.
+  - Early Access: Optionally release a beta version for feedback.
+  - Pre-Orders: Available on platforms like Steam, with exclusive in-game rewards for early buyers.
+  - Full Release: Launch globally on PC and console storefronts (e.g., Steam, Epic Games, Xbox, PlayStation).
 - **Post-Launch**:
-  - Updates, patches, new content.
+  - Updates: Free updates with additional characters, weapons, and items.
+  - DLC: Optional expansions adding new environments, bosses, and challenges.
+  - Seasonal Events: Time-limited challenges or leaderboards for extra replayability.
 
 ---
 
-## **11. Team and Resources**
-- **Development Team**: Roles and responsibilities
-  -  Egressy András
-  -  Kolozsi Zsombor
-  -  Kuruc Bálint
-- **Tools**: Unity
-- **Timeline**: Complete by around the end of December
-- **Budget**: None.
+ ## **11. Team and Resources**
+- **Development Team**:
+  - **Game Designer**: Responsible for overall gameplay mechanics and balancing.
+  - **Programmers**: Develop procedural generation, combat mechanics, and leaderboard systems.
+  - **Pixel Artists**: Create the 2D sprites, environments, and animations.
+  - **Sound Designer**: Handles sound effects and music composition.
+  - **QA Testers**: Test for bugs and balance issues.
+  - **Community Manager**: Engages with players and manages social media presence.
+- **Tools**:
+  - **Engine**: Unity.
+  - **Art**: Aseprite, Photoshop.
+  - **Audio**: Audacity, FL Studio, or similar tools for music and sound effects.
+  - **Version Control**: GitHub or similar for team collaboration.
+- **Timeline**:
+  - **Pre-Production (1 month)**: Finalize design, prototypes, and asset creation pipeline.
+  - **Production (2 months)**: Build core gameplay, art assets, and procedural generation systems.
+  - **Testing and Polish (1 month)**: QA testing, bug fixes, and optimization.
+  - **Launch (1 week)**: Final preparations and marketing push.
+- **Budget**:
+  - Estimated Costs: None
+  - Funding Sources: None

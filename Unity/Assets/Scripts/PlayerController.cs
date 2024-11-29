@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float jumpForce = 10f;
+    public float moveSpeed = 10f;
+    public float jumpForce = 40f;
     private bool isGrounded;
-    public LayerMask layerMask;
+    public LayerMask jumpable;
     private Rigidbody2D rb;
 
     void Start()
@@ -18,12 +18,9 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-
         float horizontalInput = Input.GetAxis("Horizontal");
 
-        float speed = 10f;
-
-        Move(horizontalInput, speed);
+        Move(horizontalInput, moveSpeed);
 
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
@@ -33,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        RaycastHit2D hit = Physics2D.CircleCast(rb.position, 0.5f, -Vector2.up, distance: math.INFINITY, layerMask);
+        RaycastHit2D hit = Physics2D.CircleCast(rb.position, 0.5f, -Vector2.up, distance: math.INFINITY, jumpable);
 
         if (hit && hit.distance < 0.75f)
         {

@@ -1029,9 +1029,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   jumpForce: 40
-  layerMask:
+  jumpable:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1032
 --- !u!50 &1285186892
 Rigidbody2D:
   serializedVersion: 4
@@ -1395,6 +1395,14 @@ PrefabInstance:
     - target: {fileID: 2219142480707620028, guid: 5b08cb5c6e3691142abfc6f6bb3eef82, type: 3}
       propertyPath: m_Name
       value: W1_LargeRoom_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827589389475202928, guid: 5b08cb5c6e3691142abfc6f6bb3eef82, type: 3}
+      propertyPath: m_SideArc
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5827589389475202928, guid: 5b08cb5c6e3691142abfc6f6bb3eef82, type: 3}
+      propertyPath: m_SurfaceArc
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 8437251238379242604, guid: 5b08cb5c6e3691142abfc6f6bb3eef82, type: 3}
       propertyPath: m_LocalPosition.x

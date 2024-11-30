@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     private bool onPlatform;
     public LayerMask jumpable;
     private Rigidbody2D rb;
-
+    public MoneyManager moneyManager;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -77,7 +77,14 @@ public class PlayerController : MonoBehaviour
         Vector2 curPos = rb.position;
         rb.position = new Vector2(curPos.x, curPos.y - 2f);
     }
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Money"))
+        {
+            moneyManager.cointCount++;
+            Destroy(collision.gameObject);
+        }
+    }
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Door")

@@ -65,7 +65,9 @@ public class Enemy : MonoBehaviour, iDamageable
     }
     public void DropItem()
     {
-        Instantiate(drop);
+
+        Instantiate(drop,gameObject.transform.position,Quaternion.identity);
+
     }
     private IEnumerator SpawnEnemies()
     {

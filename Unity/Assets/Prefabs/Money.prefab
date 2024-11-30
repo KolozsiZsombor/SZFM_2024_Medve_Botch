@@ -10,12 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4992614008824798985}
   - component: {fileID: 6008407140883397750}
-  - component: {fileID: 9051970788098513813}
   - component: {fileID: 3404960826843772294}
   - component: {fileID: 7765758223423840939}
   m_Layer: 0
   m_Name: Money
-  m_TagString: Untagged
+  m_TagString: Money
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,19 +86,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &9051970788098513813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6302376951884289322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17db01eb6d176a04487687016a08c5f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 1
 --- !u!50 &3404960826843772294
 Rigidbody2D:
   serializedVersion: 4

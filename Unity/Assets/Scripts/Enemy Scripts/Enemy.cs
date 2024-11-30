@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour, iDamageable
 
 
     private float currentHealth;
-    private float force= 50000f;
+
     Rigidbody2D rb;
 
 

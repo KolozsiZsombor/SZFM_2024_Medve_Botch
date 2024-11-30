@@ -2,9 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+public enum BulletType
+{
+
+    Normal,
+    Gravitational,
+    Sniper 
+}
 
 public class BulletBehavior : MonoBehaviour
 {
+
     private Rigidbody2D rb;
     [Header("General Bullet Stats")]
     [SerializeField] private float destroyTime = 3f;
@@ -17,15 +25,16 @@ public class BulletBehavior : MonoBehaviour
     [Header("Gravitational Bullet Stats")]
     [SerializeField] private float gravVelocity=5f;
     [SerializeField] private float gravity = 1f;
-    public enum BulletType
-    {
 
-        Normal,
-        Gravitational
-    }
+    [Header("Sniper Bullet Stats")]
+    [SerializeField] private float sniperDamageMultiplier=5f;
+    [SerializeField] private float sniperVelocityMultiplier = 5f;
     public BulletType bulletType;
+
+
     private void Start()
     {
+
         rb = GetComponent<Rigidbody2D>();
        
         InitializeBulletStats();
@@ -41,6 +50,13 @@ public class BulletBehavior : MonoBehaviour
         else if (bulletType == BulletType.Gravitational)
         {
             GravBullet();
+        }
+        else if (bulletType == BulletType.Sniper)
+        {
+
+            rb.velocity = transform.right * velocity * sniperVelocityMultiplier;
+            bulletDamage = bulletDamage*sniperDamageMultiplier;
+
         }
     }
 

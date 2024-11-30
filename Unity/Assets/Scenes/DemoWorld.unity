@@ -1011,10 +1011,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 722255617}
-  bullet: {fileID: 6622987382947844244, guid: 7e601750a36ac5e42a30389f40e33626, type: 3}
+  bullet: {fileID: 8742953142655155647, guid: 7e601750a36ac5e42a30389f40e33626, type: 3}
   bulletSpawn: {fileID: 1158911857}
-  attackSpeed: 0.25
-  spread: 5
+  attackSpeed: 0.1
+  spread: 0
 --- !u!114 &1285186891
 MonoBehaviour:
   m_ObjectHideFlags: 0

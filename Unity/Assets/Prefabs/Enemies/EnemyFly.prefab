@@ -508,9 +508,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   canSpawn: 0
+  canShoot: 0
+  dropsItemOnDeath: 1
+  drop: {fileID: 6302376951884289322, guid: 6f74bcec5cd61f64a96ce7bfda4a5f40, type: 3}
   spawnsWhat: {fileID: 0}
   spawnHowManyInAvg: 3
   timeToSpawnInAvg: 6
+  bullet: {fileID: 0}
+  bulletPos: {fileID: 0}
 --- !u!114 &3204265772646584595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,6 +542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affc131a8059b284ba22fb451dea83ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageAmount: 0
+  isBullet: 0
 --- !u!50 &2217059355330245081
 Rigidbody2D:
   serializedVersion: 4

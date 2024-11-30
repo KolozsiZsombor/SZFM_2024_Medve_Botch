@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
 
         Move(horizontalInput, moveSpeed);
 
-        if (isGrounded && Input.GetButtonDown("Jump"))
+        if ((isGrounded || onPlatform) && Input.GetButtonDown("Jump"))
         {
             Jump();
         }
@@ -44,17 +44,22 @@ public class PlayerController : MonoBehaviour
 
         double roundedHitDistance = Math.Round(hit.distance, 2);
 
+        Debug.Log(roundedHitDistance);
+
         if (hit && (roundedHitDistance == 0.51))
         {
             isGrounded = true;
 
-            if (hit.collider.CompareTag("Platform")) 
+            if (hit.collider.CompareTag("Platform"))
             {
                 onPlatform = true;
             }
-            else { onPlatform = false; }
         }
-        else { isGrounded = false; }
+        else
+        {
+            isGrounded = false;
+            onPlatform = false;
+        }
     }
 
     void Move(float horizontalInput, float speed)

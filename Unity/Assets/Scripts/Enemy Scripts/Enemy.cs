@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour, iDamageable
     [SerializeField] private float maxHealth = 10f;
     [SerializeField] private bool canSpawn = false;
     [SerializeField] private bool canShoot = false;
+    [SerializeField] private bool dropsItemOnDeath = false;
+    [SerializeField] private GameObject drop;
     private GameObject player;
 
     [Header("If can spawn")]
@@ -19,7 +21,7 @@ public class Enemy : MonoBehaviour, iDamageable
     [Header("If can shoot")]
     [SerializeField] private GameObject bullet;
     [SerializeField] private Transform bulletPos;
-
+   
     private float timer;
 
 
@@ -52,6 +54,7 @@ public class Enemy : MonoBehaviour, iDamageable
 
         if (currentHealth <= 0.1)
         {
+            DropItem();
             Destroy(gameObject);
 
             // Play sound effect
@@ -59,6 +62,10 @@ public class Enemy : MonoBehaviour, iDamageable
             // Go to next section in case of boss
         }
 
+    }
+    public void DropItem()
+    {
+        Instantiate(drop);
     }
     private IEnumerator SpawnEnemies()
     {

@@ -436,6 +436,7 @@
 "Assets/Scripts/EnemyBulletScript.cs"
 "Assets/Scripts/EnergyBar.cs"
 "Assets/Scripts/HealthBar.cs"
+"Assets/Scripts/money.cs"
 "Assets/Scripts/PlayerAimAndShoot.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerHealth.cs"

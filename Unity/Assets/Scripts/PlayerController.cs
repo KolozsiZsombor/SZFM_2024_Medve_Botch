@@ -44,7 +44,6 @@ public class PlayerController : MonoBehaviour
 
         double roundedHitDistance = Math.Round(hit.distance, 2);
 
-        Debug.Log(roundedHitDistance);
 
         if (hit && (roundedHitDistance == 0.51))
         {

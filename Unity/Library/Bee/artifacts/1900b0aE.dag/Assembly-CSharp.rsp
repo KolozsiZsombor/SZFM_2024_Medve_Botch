@@ -442,6 +442,7 @@
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/PlayerRegen.cs"
 "Assets/Scripts/Weapons/BulletBehavior.cs"
+"Assets/Scripts/Weapons/EngRecover.cs"
 "Assets/Scripts/Weapons/SMG/Properties.cs"
 -langversion:9.0
 

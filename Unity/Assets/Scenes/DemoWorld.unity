@@ -463,6 +463,7 @@ GameObject:
   - component: {fileID: 722255618}
   - component: {fileID: 722255619}
   - component: {fileID: 722255620}
+  - component: {fileID: 722255621}
   m_Layer: 2
   m_Name: SMG
   m_TagString: Untagged
@@ -553,6 +554,20 @@ MonoBehaviour:
   attackSpeed: 0.25
   spread: 8
   energyCost: 1
+  engRecoveryAmount: 10
+  engRecoverySpeed: 1.5
+--- !u!114 &722255621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722255617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af29ffa1e9e4e047bb83636fc7c208e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &746941512
 GameObject:
   m_ObjectHideFlags: 0

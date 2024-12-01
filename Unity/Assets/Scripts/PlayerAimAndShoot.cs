@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PlayerAimAndShoot : MonoBehaviour
 {
-    [SerializeField] private GameObject weapon;
+    [SerializeField] public GameObject weapon;
     [SerializeField] private GameObject bullet;
     [SerializeField] private Transform bulletSpawn;
-    private float attackSpeed = 0.25f;
-    private float spread = 0.25f;
+    private float attackSpeed = 0.5f;
+    private float spread = 0.5f;
+    private int energyCost = 10;
+    private EnergyBar energyBar;
     private GameObject bulletInst;
     private Vector2 worldPosition;
     private Vector2 direction;
@@ -16,11 +18,12 @@ public class PlayerAimAndShoot : MonoBehaviour
     private float defaultScale;
     private float timeSinceLastShot = 0f;
 
-
     private void Start()
     {
         attackSpeed = weapon.GetComponent<Properties>().attackSpeed;
         spread = weapon.GetComponent<Properties>().spread;
+        energyCost = weapon.GetComponent<Properties>().energyCost;
+        energyBar = GameObject.Find("Energy bar").GetComponent<EnergyBar>();
         defaultScale = weapon.transform.localScale.y;
     }
     private void Update()
@@ -57,8 +60,9 @@ public class PlayerAimAndShoot : MonoBehaviour
     private void HandleGunShooting()
     {
         timeSinceLastShot = timeSinceLastShot + Time.deltaTime;
-        if (Input.GetMouseButton(0) && timeSinceLastShot > attackSpeed)
+        if (Input.GetMouseButton(0) && timeSinceLastShot > attackSpeed && energyCost <= energyBar.slider.value && !weapon.GetComponent<EngRecover>().currentlyReloading)
         {
+            energyBar.UseEnergy(energyCost);
             bulletSpawn.localRotation = Quaternion.Euler(new Vector3(bulletSpawn.localRotation.x,bulletSpawn.localRotation.y,Random.Range(-spread,spread)));
             bulletInst = Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation);
             timeSinceLastShot = 0f;

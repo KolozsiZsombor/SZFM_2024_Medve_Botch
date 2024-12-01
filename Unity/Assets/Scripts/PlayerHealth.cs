@@ -28,6 +28,14 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
+    public void Heal(int health)
+    {
+        if (currentHealth < maxHealth){
+            currentHealth += health;
+            healthBar.SetHealth(currentHealth);
+        }
+    }
+
     private void Die()
     {
         //add death animation

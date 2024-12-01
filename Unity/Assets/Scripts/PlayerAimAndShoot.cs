@@ -7,8 +7,8 @@ public class PlayerAimAndShoot : MonoBehaviour
     [SerializeField] private GameObject weapon;
     [SerializeField] private GameObject bullet;
     [SerializeField] private Transform bulletSpawn;
-    [SerializeField] private float attackSpeed = 0.25f;
-    [SerializeField] private float spread = 15f;
+    private float attackSpeed = 0.25f;
+    private float spread = 0.25f;
     private GameObject bulletInst;
     private Vector2 worldPosition;
     private Vector2 direction;
@@ -19,6 +19,8 @@ public class PlayerAimAndShoot : MonoBehaviour
 
     private void Start()
     {
+        attackSpeed = weapon.GetComponent<Properties>().attackSpeed;
+        spread = weapon.GetComponent<Properties>().spread;
         defaultScale = weapon.transform.localScale.y;
     }
     private void Update()
@@ -29,7 +31,7 @@ public class PlayerAimAndShoot : MonoBehaviour
     private void HandleGunRotation()
     {
 
-        //rotate the gun towards the ouse position
+        //rotate the gun towards the mouse position
 
         worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         direction = (worldPosition - (Vector2)weapon.transform.position).normalized;

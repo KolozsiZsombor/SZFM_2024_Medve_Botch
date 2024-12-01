@@ -462,6 +462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722255618}
   - component: {fileID: 722255619}
+  - component: {fileID: 722255620}
   m_Layer: 2
   m_Name: SMG
   m_TagString: Untagged
@@ -537,6 +538,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &722255620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722255617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485314ee980de834396caa1b5dd42cc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackSpeed: 0.25
+  spread: 8
+  energyCost: 1
 --- !u!1 &746941512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,6 +1214,7 @@ GameObject:
   - component: {fileID: 1285186891}
   - component: {fileID: 1285186890}
   - component: {fileID: 1285186896}
+  - component: {fileID: 1285186897}
   m_Layer: 2
   m_Name: Player Sprite
   m_TagString: Player
@@ -1220,8 +1237,6 @@ MonoBehaviour:
   weapon: {fileID: 722255617}
   bullet: {fileID: 8742953142655155647, guid: 7e601750a36ac5e42a30389f40e33626, type: 3}
   bulletSpawn: {fileID: 1158911857}
-  attackSpeed: 0.1
-  spread: 0
 --- !u!114 &1285186891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1386,6 +1401,20 @@ MonoBehaviour:
   maxHealth: 10
   currentHealth: 0
   healthBar: {fileID: 211191886}
+--- !u!114 &1285186897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285186889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e9769ad77f78240990533288fd6749, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  regenAmount: 1
+  regenRate: 1
 --- !u!1 &1383802597
 GameObject:
   m_ObjectHideFlags: 0

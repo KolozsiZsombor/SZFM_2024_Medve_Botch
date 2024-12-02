@@ -551,11 +551,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 485314ee980de834396caa1b5dd42cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackSpeed: 0.25
+  baseDamage: 1
+  bullet: {fileID: 8742953142655155647, guid: 7e601750a36ac5e42a30389f40e33626, type: 3}
+  attackSpeed: 0.2
   spread: 8
   energyCost: 1
   engRecoveryAmount: 10
   engRecoverySpeed: 1.5
+  projectileSpeed: 18
 --- !u!114 &722255621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,6 +571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af29ffa1e9e4e047bb83636fc7c208e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentlyReloading: 0
 --- !u!1 &746941512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,7 +1254,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 722255617}
-  bullet: {fileID: 8742953142655155647, guid: 7e601750a36ac5e42a30389f40e33626, type: 3}
   bulletSpawn: {fileID: 1158911857}
 --- !u!114 &1285186891
 MonoBehaviour:

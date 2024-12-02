@@ -4,10 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 public enum BulletType
 {
-
     Normal,
-    Gravitational,
-    Sniper 
+    Gravitational
 }
 
 public class BulletBehavior : MonoBehaviour
@@ -20,25 +18,20 @@ public class BulletBehavior : MonoBehaviour
     [SerializeField] private float bulletDamage = 5f;
 
     [Header("Normal Bullet Stats")]
-
-    [SerializeField] private float velocity = 10f;
     [Header("Gravitational Bullet Stats")]
     [SerializeField] private float gravVelocity=5f;
     [SerializeField] private float gravity = 1f;
-
-    [Header("Sniper Bullet Stats")]
-    [SerializeField] private float sniperDamageMultiplier=5f;
-    [SerializeField] private float sniperVelocityMultiplier = 5f;
     public BulletType bulletType;
-
+    [SerializeField] private float velocity;
 
     private void Start()
     {
 
         rb = GetComponent<Rigidbody2D>();
-       
+        velocity = GameObject.Find("Player Sprite")
+            .GetComponent<PlayerAimAndShoot>().weapon
+            .GetComponent<Properties>().projectileSpeed;
         InitializeBulletStats();
-
         SetDestroyTime();
     }
     private void InitializeBulletStats()
@@ -51,13 +44,6 @@ public class BulletBehavior : MonoBehaviour
         {
             GravBullet();
         }
-        else if (bulletType == BulletType.Sniper)
-        {
-
-            rb.velocity = transform.right * velocity * sniperVelocityMultiplier;
-            bulletDamage = bulletDamage*sniperDamageMultiplier;
-
-        }
     }
 
     private void GravBullet()
@@ -69,8 +55,11 @@ public class BulletBehavior : MonoBehaviour
 
     private void SetStraightVelocity()
     {
-
+        Debug.Log(velocity);
+        Debug.Log(rb.velocity);
         rb.velocity = transform.right * velocity;
+        Debug.Log(velocity);
+        Debug.Log(rb.velocity);
     }
 
     private void SetDestroyTime()

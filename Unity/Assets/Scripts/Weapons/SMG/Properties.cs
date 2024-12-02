@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class Properties : MonoBehaviour
 {
-    [SerializeField] public float attackSpeed = 0.15f;
-    [SerializeField] public float spread = 15f;
-    [SerializeField] public int energyCost = 1;
-    [SerializeField] public int engRecoveryAmount = 10;
-    [SerializeField] public float engRecoverySpeed = 2f;
+    // Values are defined inside Unity
+    [SerializeField] public float baseDamage;
+    [SerializeField] public GameObject bullet;
+    [SerializeField] public float attackSpeed;
+    [SerializeField] public float spread;
+    [SerializeField] public int energyCost;
+    [SerializeField] public int engRecoveryAmount;
+    [SerializeField] public float engRecoverySpeed;
+    [SerializeField] public float projectileSpeed;
 }

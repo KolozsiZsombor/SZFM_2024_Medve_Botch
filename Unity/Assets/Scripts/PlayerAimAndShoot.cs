@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerAimAndShoot : MonoBehaviour
 {
     [SerializeField] public GameObject weapon;
-    [SerializeField] private GameObject bullet;
     [SerializeField] private Transform bulletSpawn;
+    private GameObject bullet;
     private float attackSpeed = 0.5f;
     private float spread = 0.5f;
     private int energyCost = 10;
@@ -22,6 +22,7 @@ public class PlayerAimAndShoot : MonoBehaviour
     {
         attackSpeed = weapon.GetComponent<Properties>().attackSpeed;
         spread = weapon.GetComponent<Properties>().spread;
+        bullet = weapon.GetComponent<Properties>().bullet;
         energyCost = weapon.GetComponent<Properties>().energyCost;
         energyBar = GameObject.Find("Energy bar").GetComponent<EnergyBar>();
         defaultScale = weapon.transform.localScale.y;

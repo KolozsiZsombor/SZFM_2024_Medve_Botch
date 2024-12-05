@@ -23,11 +23,6 @@ public class RoomDescriptor : MonoBehaviour
             EnemySpawnsSet.Add(EnemySpawn);
             i++;
         }
-
-        for (int j = 0; j < EnemySpawnsSet.Count(); j++)
-        {
-            Debug.Log(EnemySpawnsSet[j].transform.position);
-        }
     }
 
     public List<Transform> GetEnemySpawns() { return EnemySpawnsSet; }

@@ -446,6 +446,7 @@
 "Assets/Scripts/Weapons/SMG/Properties.cs"
 "Assets/Scripts/Weapons/Sniper.cs"
 "Assets/Scripts/World Generation/RoomDescriptor.cs"
+"Assets/Scripts/World Generation/WorldBuilder.cs"
 -langversion:9.0
 
 /deterministic

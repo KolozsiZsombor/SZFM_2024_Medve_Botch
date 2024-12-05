@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -21,6 +22,11 @@ public class RoomDescriptor : MonoBehaviour
             Transform EnemySpawn = EnemySpawns.transform.GetChild(i);
             EnemySpawnsSet.Add(EnemySpawn);
             i++;
+        }
+
+        for (int j = 0; j < EnemySpawnsSet.Count(); j++)
+        {
+            Debug.Log(EnemySpawnsSet[j].transform.position);
         }
     }
 

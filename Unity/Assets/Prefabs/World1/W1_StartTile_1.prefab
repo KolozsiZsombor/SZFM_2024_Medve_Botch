@@ -1709,6 +1709,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6330838576455191691}
+  - component: {fileID: 7479768075788765275}
   m_Layer: 0
   m_Name: RightAttachment
   m_TagString: Untagged
@@ -1731,6 +1732,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3594872279969621433}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7479768075788765275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5961881977885581883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0ca661552f99142bdd9119430f12d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftAttachment: {fileID: 0}
+  RightAttachment: {fileID: 0}
+  EnemySpawns: {fileID: 0}
 --- !u!1 &6849377474691907856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,6 +1756,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8634187302108149778}
+  - component: {fileID: 4723095779366986859}
   m_Layer: 0
   m_Name: LeftAttachment
   m_TagString: Untagged
@@ -1762,6 +1779,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3594872279969621433}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4723095779366986859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849377474691907856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0ca661552f99142bdd9119430f12d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftAttachment: {fileID: 6849377474691907856}
+  RightAttachment: {fileID: 5961881977885581883}
+  EnemySpawns: {fileID: 0}
 --- !u!1 &8972569982976752579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,6 +1823,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8634187302108149778}
+  - {fileID: 6330838576455191691}
   - {fileID: 7560692527263365587}
   - {fileID: 3457572921982897081}
   - {fileID: 596241588253003981}
@@ -1798,8 +1832,6 @@ Transform:
   - {fileID: 710681554617309690}
   - {fileID: 5521143034992199073}
   - {fileID: 8997231174610663715}
-  - {fileID: 8634187302108149778}
-  - {fileID: 6330838576455191691}
   - {fileID: 344915517826702759}
   - {fileID: 1178563192515512518}
   - {fileID: 3271383179876493445}

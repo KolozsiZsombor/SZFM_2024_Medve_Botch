@@ -1700,6 +1700,37 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!1 &5451648636961911345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6866968003951122584}
+  m_Layer: 0
+  m_Name: EnemySpawns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6866968003951122584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5451648636961911345}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3594872279969621433}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5961881977885581883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,6 +1825,7 @@ Transform:
   m_Children:
   - {fileID: 8634187302108149778}
   - {fileID: 6330838576455191691}
+  - {fileID: 6866968003951122584}
   - {fileID: 7560692527263365587}
   - {fileID: 3457572921982897081}
   - {fileID: 596241588253003981}
@@ -1830,7 +1862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LeftAttachment: {fileID: 6849377474691907856}
   RightAttachment: {fileID: 5961881977885581883}
-  EnemySpawns: {fileID: 0}
+  EnemySpawns: {fileID: 5451648636961911345}
 --- !u!1001 &644400240423393511
 PrefabInstance:
   m_ObjectHideFlags: 0

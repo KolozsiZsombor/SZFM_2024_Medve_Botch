@@ -23,11 +23,14 @@ public class RoomDescriptor : MonoBehaviour
             EnemySpawnsSet.Add(EnemySpawn);
             i++;
         }
+
+        Debug.Log(GetLeftPosition());
+        Debug.Log("Working");
     }
 
     public List<Transform> GetEnemySpawns() { return EnemySpawnsSet; }
 
-    public Transform GetLeftPosition() { return LeftAttachment.transform; }
+    public Vector3 GetLeftPosition() { return LeftAttachment.transform.position; }
 
-    public Transform GetRightPosition() { return RightAttachment.transform; }
+    public Vector3 GetRightPosition() { return RightAttachment.transform.position; }
 }

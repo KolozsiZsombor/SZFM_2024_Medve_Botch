@@ -162,7 +162,7 @@ Transform:
   m_GameObject: {fileID: 171150118}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.94045347, y: -1.6028135, z: -0.76027817}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -176,6 +176,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2957184796974228839, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992749496939012716, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3454621363590979585, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
       propertyPath: m_Name
       value: Player Sprite
@@ -222,6 +230,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4692390138630588813, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7889697886788001742, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

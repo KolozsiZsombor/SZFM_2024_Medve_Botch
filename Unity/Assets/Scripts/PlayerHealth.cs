@@ -27,6 +27,11 @@ public class PlayerHealth : MonoBehaviour
         }
 
     }
+    public void UpdateHealthBar(int currenthealth, int maxhealth)
+    {
+        healthBar.SetMaxHealth(maxhealth);
+        healthBar.SetHealth(currenthealth);
+    }
 
     public void Heal(int health)
     {

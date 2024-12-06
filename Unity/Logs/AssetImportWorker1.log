@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16183 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 14274 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+D:\Program Files\Unity\2022.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
+D:/UnityGames/SZFM_2024_Medve_Botch/Unity
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60553
-Successfully changed project path to: C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
-C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
+55332
+Successfully changed project path to: D:/UnityGames/SZFM_2024_Medve_Botch/Unity
+D:/UnityGames/SZFM_2024_Medve_Botch/Unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,66 @@ C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [64076] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2957432103 [EditorId] 2957432103 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R1ES5OM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17116] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 967870127 [EditorId] 967870127 [Version] 1048832 [Id] WindowsEditor(7,DezsoPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [64076] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2957432103 [EditorId] 2957432103 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R1ES5OM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17116] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 967870127 [EditorId] 967870127 [Version] 1048832 [Id] WindowsEditor(7,DezsoPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 16.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 22.31 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gameh/Desktop/_/uni/SZFM_2024_Medve_Botch/Unity/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityGames/SZFM_2024_Medve_Botch/Unity/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
-    VRAM:     8091 MB
-    Driver:   32.0.101.5989
+    Renderer: Radeon RX 560X Series (ID=0x67ef)
+    Vendor:   ATI
+    VRAM:     4076 MB
+    Driver:   31.0.21921.1000
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+Mono path[0] = 'D:/Program Files/Unity/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008176 seconds.
-- Loaded All Assemblies, in  0.540 seconds
+Register platform support module: D:/Program Files/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009126 seconds.
+- Loaded All Assemblies, in  0.603 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.422 seconds
-Domain Reload Profiling: 960ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.424 seconds
+Domain Reload Profiling: 1024ms
+	BeginReloadAssembly (186ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (233ms)
-		LoadAssemblies (156ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (181ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (228ms)
-				TypeCache.ScanAssembly (208ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (197ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (423ms)
+	FinalizeReload (425ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
+		SetupLoadedEditorAssemblies (324ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
+			InitializePlatformSupportModulesInManaged (12ms)
 			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (206ms)
-			ProcessInitializeOnLoadMethodAttributes (79ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,1230 +116,176 @@ Domain Reload Profiling: 960ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000002586A9952E0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0ECC90 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3B7620 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0ECC90 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0ECC90 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E110A60 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E110A60 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B0D15E0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D51C040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E110A60 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E5DB230 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E5DB230 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5FF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D579450 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D59C070 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D59C070 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E146010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E146010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E154E20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CC57490 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E154E20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E154E20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AB0B8D0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D0E5D10 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AB0B8D0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DA67010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AB0B8D0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AB0B8D0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DA67010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AB0B8D0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E1CBA40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D12F780 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DA67010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DAA8820 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E1CBA40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A6AC010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E1CBA40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D13AD90 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E1CBA40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A6CFE20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D13AD90 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D13F3A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A6F6430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A740060 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A87D9B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D13F3A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D13F3A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8BFFD0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D13F3A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8CA1E0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8E01F0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8E4200 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8E4200 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FAA7230 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8EB810 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.094 seconds
-Refreshing native plugins compatible for Editor in 6.31 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.837 seconds
+Refreshing native plugins compatible for Editor in 20.47 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.525 seconds
-Domain Reload Profiling: 2617ms
-	BeginReloadAssembly (212ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (734ms)
-		LoadAssemblies (492ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (360ms)
-			TypeCache.Refresh (298ms)
-				TypeCache.ScanAssembly (275ms)
-			ScanForSourceGeneratedMonoScriptInfo (43ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1526ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1220ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (956ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 7.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5925 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 101 unused Assets / (0.9 MB). Loaded Objects now: 6373.
-Memory consumption went from 231.0 MB to 230.1 MB.
-Total: 6.702400 ms (FindLiveObjects: 0.447800 ms CreateObjectMapping: 0.676300 ms MarkObjects: 5.068200 ms  DeleteObjects: 0.508000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1770336.395738 seconds.
-  path: Assets/Prefabs/World1/W1_StartTile_1.prefab
-  artifactKey: Guid(f56d6657889850a4dba785b834c2eb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_StartTile_1.prefab using Guid(f56d6657889850a4dba785b834c2eb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1bffadae5ad6edfdf6bee50f90f4c0') in 0.689077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 221
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Prefabs/World1/W1_MediumRoom_1.prefab
-  artifactKey: Guid(dfbc16c8f1648194bbce74a7f0db1071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/World1/W1_MediumRoom_1.prefab using Guid(dfbc16c8f1648194bbce74a7f0db1071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a6b48a42af8961f7d12ee77eb29d01') in 0.045748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 356
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002586AEA8030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D8A5010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AEF3DD0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A4CF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF0D0B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890114E90 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D775010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A98B6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890114E90 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C86020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D832830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A98B6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C86020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3FCA20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898940840 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A98B6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D8D2620 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A98B6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898940840 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897F86020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589031B040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D859F00 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A3DF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3FCA20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B0A3FD0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898940840 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589035DC00 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589035DC00 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898940840 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D859F00 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898C20020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A3780A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A3780A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898940840 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E288010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898940840 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A9B6C10 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3FCA20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D859F00 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898282010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A3DF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CE09CD0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589828BC20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FF2990 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CE09CD0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D859F00 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DA3A440 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3E5FA0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258994B5000 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A3DF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898C7B830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.559 seconds
-Refreshing native plugins compatible for Editor in 5.63 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.158 seconds
-Domain Reload Profiling: 2714ms
-	BeginReloadAssembly (196ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (272ms)
-		LoadAssemblies (343ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2159ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1149ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (894ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 7.44 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6426.
-Memory consumption went from 210.4 MB to 209.5 MB.
-Total: 5.521500 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.255000 ms MarkObjects: 3.959200 ms  DeleteObjects: 0.865300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025898AE8AE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897CEC030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AE80400 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1222F0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898AE8AE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588EADE010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FD5F310 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897CEC030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589012D030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AEA8030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898939020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AEA8030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589012D030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D851050 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AEA8030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258998D9430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589012D030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FD5F310 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589012D030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3FCC20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1222F0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF0D0B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E579020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258998D9430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902B20B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FC6060 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902B20B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258998D9430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF0D0B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D304010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CDEF0C0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E714020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258998D9430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1222F0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258998D9430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF0D0B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258994AAB50 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1222F0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589031B040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF0D0B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589ABE4BE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF0D0B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B173A20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A031DA0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E714020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B173A20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D8DDC20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.595 seconds
-Refreshing native plugins compatible for Editor in 4.08 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.186 seconds
-Domain Reload Profiling: 2777ms
-	BeginReloadAssembly (213ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (289ms)
-		LoadAssemblies (358ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2187ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1148ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (895ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 7.31 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6431.
-Memory consumption went from 212.2 MB to 211.3 MB.
-Total: 6.873200 ms (FindLiveObjects: 0.616500 ms CreateObjectMapping: 0.770200 ms MarkObjects: 4.973000 ms  DeleteObjects: 0.511800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002589069B710 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258989EC010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AE80400 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898C79E30 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588ED50020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5FF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898028030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588EA4E3A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589012D030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A900060 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589832B420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8B4020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588ED50020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589012D030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589832B420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E579020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589832B420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902B20B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0B0080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902B20B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589832B420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D304010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589869CD60 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898BA2010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589832B420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FF63D0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589832B420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FD5F310 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FF63D0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589031B040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FD5F310 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588EBBA420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FF16E10 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898877020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FAC2040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.626 seconds
-Refreshing native plugins compatible for Editor in 6.97 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.927 seconds
-Domain Reload Profiling: 2549ms
-	BeginReloadAssembly (201ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (329ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (68ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (34ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1928ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (944ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (718ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 4.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6436.
-Memory consumption went from 214.2 MB to 213.3 MB.
-Total: 4.676800 ms (FindLiveObjects: 0.399500 ms CreateObjectMapping: 0.554100 ms MarkObjects: 3.098500 ms  DeleteObjects: 0.623100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002589069B710 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898018020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898A40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258980A5E80 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A99AAC0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C95E40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D84030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588EBBA420 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D369C40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897DDC010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D84030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D84030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A8B4020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589012D030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D369C40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D84030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897E00030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E220030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDA1D020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DB63030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890947E20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D304010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CDEF0C0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C46020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD1C6030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5A2830 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898A40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D84030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FA82020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902B20B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FCFA0080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D369C40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898A40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3FF020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902B20B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C46020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3F1AC0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD533BE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.566 seconds
-Refreshing native plugins compatible for Editor in 5.87 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.682 seconds
-Domain Reload Profiling: 2245ms
-	BeginReloadAssembly (201ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (274ms)
-		LoadAssemblies (356ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1683ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (821ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (633ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 8.29 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6441.
-Memory consumption went from 216.0 MB to 215.1 MB.
-Total: 7.869300 ms (FindLiveObjects: 0.643400 ms CreateObjectMapping: 0.927500 ms MarkObjects: 5.499600 ms  DeleteObjects: 0.796900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002589069B710 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890729020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AE80400 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258980A5E60 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDF56020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A298480 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C95E40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ADD8020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0E2020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FC6060 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD1BD010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5FF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDADD030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897E00030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E220030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD915020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DB63030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890947E20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDF56020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D304010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CDEF0C0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF67010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3E2010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ADD8020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A233940 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD1BD010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF67010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A996040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FCFA0080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898A40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E12A470 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDF56020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A996040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AB07700 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD533BE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDF56020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.586 seconds
-Refreshing native plugins compatible for Editor in 6.55 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.373 seconds
-Domain Reload Profiling: 2955ms
-	BeginReloadAssembly (191ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (302ms)
-		LoadAssemblies (369ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2374ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1162ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (910ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 7.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6446.
-Memory consumption went from 217.8 MB to 217.0 MB.
-Total: 7.312700 ms (FindLiveObjects: 0.579200 ms CreateObjectMapping: 0.841900 ms MarkObjects: 5.215000 ms  DeleteObjects: 0.674900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A98B6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AE80400 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0E2020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A298480 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C95E40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DB63030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FACA040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589035D010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FACA040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FC6060 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902FFED0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5FF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FACA040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0E2020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FCFA0080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897E00030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FACA040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025899773020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898220020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025899F06870 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FACA040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD58CF10 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D304010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CDEF0C0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDF56020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3E2010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FACA040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ADD8020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FACA040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258902FFED0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A031DA0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258985AC020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898A40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E12A470 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A031DA0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589067A630 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FE314030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.639 seconds
-Refreshing native plugins compatible for Editor in 4.45 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.855 seconds
-Domain Reload Profiling: 2491ms
-	BeginReloadAssembly (193ms)
+- Finished resetting the current domain, in  3.697 seconds
+Domain Reload Profiling: 6512ms
+	BeginReloadAssembly (291ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (337ms)
-		LoadAssemblies (369ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (142ms)
+	RebuildNativeTypeToScriptingClass (80ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (2130ms)
+		LoadAssemblies (1553ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (58ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1855ms)
+		AnalyzeDomain (746ms)
+			TypeCache.Refresh (608ms)
+				TypeCache.ScanAssembly (564ms)
+			ScanForSourceGeneratedMonoScriptInfo (102ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (3698ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (827ms)
+		SetupLoadedEditorAssemblies (2316ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (43ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (316ms)
+			ProcessInitializeOnLoadAttributes (1698ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 16.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5926 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 101 unused Assets / (0.9 MB). Loaded Objects now: 6374.
+Memory consumption went from 230.6 MB to 229.7 MB.
+Total: 9.965500 ms (FindLiveObjects: 0.982200 ms CreateObjectMapping: 1.268300 ms MarkObjects: 6.732600 ms  DeleteObjects: 0.979900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1199917.392559 seconds.
+  path: Assets/ScriptableObjects/Scripts/PowerUpEffect.cs
+  artifactKey: Guid(0f0e11e76df2f9d4fa21f578092d3b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Scripts/PowerUpEffect.cs using Guid(0f0e11e76df2f9d4fa21f578092d3b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366ae397cf9090b9f6d6cd31a47bd7ad') in 0.004416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (0.9 MB). Loaded Objects now: 6374.
+Memory consumption went from 114.2 MB to 113.3 MB.
+Total: 6.396200 ms (FindLiveObjects: 0.634800 ms CreateObjectMapping: 0.738200 ms MarkObjects: 4.430500 ms  DeleteObjects: 0.591200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 42.917046 seconds.
+  path: Assets/ScriptableObjects/Scripts/PowerUpEffect.cs
+  artifactKey: Guid(0f0e11e76df2f9d4fa21f578092d3b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjects/Scripts/PowerUpEffect.cs using Guid(0f0e11e76df2f9d4fa21f578092d3b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187138b943dbe261a7df59f06a2c5a29') in 0.000978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 393.882120 seconds.
+  path: Assets/Prefabs/EnemyBullet.prefab
+  artifactKey: Guid(7e4ff9391d0d6134f8526ac754b07fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyBullet.prefab using Guid(7e4ff9391d0d6134f8526ac754b07fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90f2e921d76d7bd1b5e1e75a5782c24') in 0.411214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Player Sprite.prefab
+  artifactKey: Guid(1e5bec29fc977564aae0522c8bbef408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Sprite.prefab using Guid(1e5bec29fc977564aae0522c8bbef408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e80442f697e1cffd880f31c5e68158') in 0.034914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.939 seconds
+Refreshing native plugins compatible for Editor in 7.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.770 seconds
+Domain Reload Profiling: 4703ms
+	BeginReloadAssembly (306ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (568ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (74ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3771ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (985ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (638ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (657ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 5.27 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (38ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6451.
-Memory consumption went from 219.8 MB to 219.0 MB.
-Total: 4.545800 ms (FindLiveObjects: 0.397800 ms CreateObjectMapping: 0.263000 ms MarkObjects: 3.458000 ms  DeleteObjects: 0.425900 ms)
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6431.
+Memory consumption went from 210.1 MB to 209.2 MB.
+Total: 6.911600 ms (FindLiveObjects: 0.631200 ms CreateObjectMapping: 0.781700 ms MarkObjects: 4.771100 ms  DeleteObjects: 0.725400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1357,513 +304,516 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A097C20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589ACF0020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589804A010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D26020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C95E40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D983030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D26020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DB63030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D983030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0E2020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D3C5190 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5FF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589804A010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586B175040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FCFA0080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FE287010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897E00030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E220030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDE1B020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025899F06870 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD58CF10 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D304010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CDEF0C0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD01C030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3E2010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DB63030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589ACF0020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D26020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897D26020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD3FC020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258985AC020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A659040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589ACF0020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E12A470 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FD40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD3FC020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E714020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A659040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.569 seconds
-Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
+- Loaded All Assemblies, in  5.996 seconds
+Refreshing native plugins compatible for Editor in 97.00 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.286 seconds
-Domain Reload Profiling: 2851ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (289ms)
-		LoadAssemblies (350ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2286ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1107ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (857ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 9.24 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6456.
-Memory consumption went from 221.8 MB to 220.9 MB.
-Total: 5.731200 ms (FindLiveObjects: 0.446000 ms CreateObjectMapping: 0.715900 ms MarkObjects: 4.100400 ms  DeleteObjects: 0.467000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A097C20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AE80400 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0E2020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589ACF0020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C95E40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258989EC010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588DB63030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A280490 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D983030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD45E020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FC6060 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D750010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5FF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A280490 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0E2020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDADD030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FCFA0080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897E00030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E220030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FE314030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025899F06870 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD58CF10 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898220020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025899FBAEB0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD01C030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E3E2010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588EA4E3A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588CF08030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D750010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258985AC020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A280490 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E686010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E12A470 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FD40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D19C020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AFD1010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A659040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586AFB8CE0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.626 seconds
-Refreshing native plugins compatible for Editor in 6.93 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.603 seconds
-Domain Reload Profiling: 2227ms
-	BeginReloadAssembly (217ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (316ms)
-		LoadAssemblies (356ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (64ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1603ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (796ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (620ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6461.
-Memory consumption went from 223.7 MB to 222.8 MB.
-Total: 4.008000 ms (FindLiveObjects: 0.423100 ms CreateObjectMapping: 0.245800 ms MarkObjects: 2.946500 ms  DeleteObjects: 0.391100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file data-000002589069B710 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A097C20 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258987BD050 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E0E2020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FF15040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897C95E40 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D0DE020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD3FC020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D983030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD3D8020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1BA6A0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PPv2URPConverters.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025897FC6060 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D750010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D5FF010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A1672B0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588FD40010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FCFA0080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDADD030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD7CB010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E220030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FDF70080 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025899F06870 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D2A5430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898220020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD429010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589828C030 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A7D4010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258984DA500 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258FD575010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D750010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ACFBDF0 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025898406020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ADD8020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258985AC020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D831020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A659040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A298480 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588E466020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D2A5430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586ADD8020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002589A7D4010 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002586A659040 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025890465020 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002588D2A5430 doesn't match image C:\Users\gameh\Desktop\_\uni\SZFM_2024_Medve_Botch\Unity\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.580 seconds
-Refreshing native plugins compatible for Editor in 4.55 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.225 seconds
-Domain Reload Profiling: 2802ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  4.242 seconds
+Domain Reload Profiling: 10166ms
+	BeginReloadAssembly (990ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (290ms)
-		LoadAssemblies (367ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (601ms)
+	RebuildNativeTypeToScriptingClass (224ms)
+	initialDomainReloadingComplete (472ms)
+	LoadAllAssembliesAndSetupDomain (3634ms)
+		LoadAssemblies (4157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
+		AnalyzeDomain (338ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (224ms)
+	FinalizeReload (4243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (715ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6436.
+Memory consumption went from 211.9 MB to 211.1 MB.
+Total: 8.117500 ms (FindLiveObjects: 0.724700 ms CreateObjectMapping: 0.947000 ms MarkObjects: 5.484600 ms  DeleteObjects: 0.959700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.817 seconds
+Refreshing native plugins compatible for Editor in 9.70 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.465 seconds
+Domain Reload Profiling: 3277ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (484ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
 			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (2226ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2466ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (983ms)
+		SetupLoadedEditorAssemblies (993ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (735ms)
-			ProcessInitializeOnLoadMethodAttributes (94ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6441.
+Memory consumption went from 213.9 MB to 213.0 MB.
+Total: 7.127900 ms (FindLiveObjects: 0.780100 ms CreateObjectMapping: 0.973500 ms MarkObjects: 4.620200 ms  DeleteObjects: 0.752600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.772 seconds
+Refreshing native plugins compatible for Editor in 8.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.722 seconds
+Domain Reload Profiling: 3488ms
+	BeginReloadAssembly (254ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1110ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (767ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (34ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5769 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6446.
+Memory consumption went from 215.8 MB to 214.9 MB.
+Total: 7.724600 ms (FindLiveObjects: 0.667000 ms CreateObjectMapping: 0.753700 ms MarkObjects: 5.515000 ms  DeleteObjects: 0.787500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 8.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.613 seconds
+Domain Reload Profiling: 3377ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1069ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (761ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 10.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6451.
+Memory consumption went from 217.7 MB to 216.8 MB.
+Total: 4.905900 ms (FindLiveObjects: 0.664400 ms CreateObjectMapping: 0.329000 ms MarkObjects: 3.372600 ms  DeleteObjects: 0.538400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 8.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.432 seconds
+Domain Reload Profiling: 3204ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (485ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1042ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (724ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 13.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6456.
+Memory consumption went from 219.7 MB to 218.8 MB.
+Total: 8.617700 ms (FindLiveObjects: 0.964000 ms CreateObjectMapping: 1.322900 ms MarkObjects: 5.507500 ms  DeleteObjects: 0.821300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.756 seconds
+Refreshing native plugins compatible for Editor in 7.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.704 seconds
+Domain Reload Profiling: 3454ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2705ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1094ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (766ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 16.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6461.
+Memory consumption went from 221.6 MB to 220.7 MB.
+Total: 8.783700 ms (FindLiveObjects: 0.885100 ms CreateObjectMapping: 0.753400 ms MarkObjects: 6.125200 ms  DeleteObjects: 1.018600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.060 seconds
+Refreshing native plugins compatible for Editor in 9.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.521 seconds
+Domain Reload Profiling: 3572ms
+	BeginReloadAssembly (339ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (2521ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (905ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (607ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6466.
-Memory consumption went from 225.6 MB to 224.8 MB.
-Total: 5.132300 ms (FindLiveObjects: 0.577900 ms CreateObjectMapping: 0.583100 ms MarkObjects: 3.527000 ms  DeleteObjects: 0.442800 ms)
+Memory consumption went from 223.5 MB to 222.7 MB.
+Total: 5.826100 ms (FindLiveObjects: 0.624000 ms CreateObjectMapping: 0.358100 ms MarkObjects: 4.304300 ms  DeleteObjects: 0.537600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.827 seconds
+Refreshing native plugins compatible for Editor in 10.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.659 seconds
+Domain Reload Profiling: 3479ms
+	BeginReloadAssembly (262ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (428ms)
+		LoadAssemblies (511ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2660ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1093ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (774ms)
+			ProcessInitializeOnLoadMethodAttributes (146ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 24.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5773 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (0.9 MB). Loaded Objects now: 6471.
+Memory consumption went from 225.5 MB to 224.6 MB.
+Total: 8.816900 ms (FindLiveObjects: 0.700300 ms CreateObjectMapping: 0.934300 ms MarkObjects: 5.891600 ms  DeleteObjects: 1.288800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

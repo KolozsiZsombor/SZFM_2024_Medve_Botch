@@ -37,7 +37,47 @@ MonoBehaviour:
   m_CanChangeZPosition: 0
   m_FloodFillContiguousOnly: 1
   randomTileSetSize: {x: 1, y: 1, z: 1}
-  randomTileSets: []
+  randomTileSets:
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
+  - randomTiles:
+    - {fileID: 0}
   randomTileChangeDataSets: []
-  pickRandomTiles: 0
-  addToRandomTiles: 0
+  pickRandomTiles: 1
+  addToRandomTiles: 1

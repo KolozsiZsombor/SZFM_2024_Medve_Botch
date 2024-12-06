@@ -10,9 +10,4 @@ public class WorldBuilder : MonoBehaviour
     {
         Instantiate(StartingRoom, Vector3.zero, Quaternion.identity);
     }
-
-    void Update()
-    {
-        
-    }
 }

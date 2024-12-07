@@ -299,7 +299,7 @@ MonoBehaviour:
   StartingRoom: {fileID: 8972569982976752579, guid: f56d6657889850a4dba785b834c2eb96, type: 3}
   EndingRoom: {fileID: 0}
   ShopRoom: {fileID: 6825735163695189922, guid: f8e0c9f5176187e4bb0b18da5f956e65, type: 3}
-  GiftRoom: {fileID: 0}
+  GiftRoom: {fileID: 5638606343383026775, guid: ef62d439fadb49f4e8958ea385f3ffbb, type: 3}
   RoomPrefabs: []
   MinimumRoomsPerLevel: 4
   MaximumRoomsPerLevel: 8

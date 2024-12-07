@@ -630,9 +630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0ca661552f99142bdd9119430f12d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LeftAttachment: {fileID: 0}
-  RightAttachment: {fileID: 0}
-  EnemySpawns: {fileID: 0}
+  LeftAttachment: {fileID: 9133239276193726093}
+  RightAttachment: {fileID: 7121863362979193471}
+  EnemySpawns: {fileID: 8888230588433497646}
 --- !u!1 &7121863362979193471
 GameObject:
   m_ObjectHideFlags: 0

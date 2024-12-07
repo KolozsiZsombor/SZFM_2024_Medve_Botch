@@ -59,7 +59,7 @@ public class WorldBuilder : MonoBehaviour
 
             // Deciding what to do based on the room selected, since some rooms require special treatment.
             // If we randomly selected the shop room.
-            if (SelectedRoom == ShopRoom)
+            if (SelectedRoom == ShopRoom && !ShopRoomPlaced)
             {
                 PlaceShopRoom();
             }
@@ -69,7 +69,7 @@ public class WorldBuilder : MonoBehaviour
                 PlaceShopRoom();
             }
             // If we randomly selected the gift room.
-            else if (SelectedRoom == GiftRoom)
+            else if (SelectedRoom == GiftRoom && !GiftRoomPlaced)
             {
                 PlaceGiftRoom();
             }

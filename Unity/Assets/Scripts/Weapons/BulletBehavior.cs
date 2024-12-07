@@ -25,13 +25,6 @@ public class BulletBehavior : MonoBehaviour
     public BulletType bulletType;
     [SerializeField] private float velocity;
 
-    // Add new fields to store copied properties
-    private float bulletAttackSpeed;
-    private float bulletSpread;
-    private int bulletEnergyCost;
-    private int bulletEngRecoveryAmount;
-    private float bulletEngRecoverySpeed;
-    private float bulletProjectileSpeed;
 
     private void Start()
     {
@@ -44,9 +37,7 @@ public class BulletBehavior : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         // Initialize the velocity from the player’s weapon Properties component
-        velocity = GameObject.Find("Player Sprite")
-            .GetComponent<PlayerAimAndShoot>().weapon
-            .GetComponent<Properties>().projectileSpeed;
+        velocity = properties.projectileSpeed;
 
         // Initialize the bullet stats
         InitializeBulletStats();
@@ -59,12 +50,7 @@ public class BulletBehavior : MonoBehaviour
     private void CopyPropertiesToBullet()
     {
         bulletDamage = properties.baseDamage;
-        bulletAttackSpeed = properties.attackSpeed;
-        bulletSpread = properties.spread;
-        bulletEnergyCost = properties.energyCost;
-        bulletEngRecoveryAmount = properties.engRecoveryAmount;
-        bulletEngRecoverySpeed = properties.engRecoverySpeed;
-        bulletProjectileSpeed = properties.projectileSpeed;
+        velocity = properties.projectileSpeed;
     }
 
     private void InitializeBulletStats()
@@ -87,7 +73,7 @@ public class BulletBehavior : MonoBehaviour
 
     private void SetStraightVelocity()
     {
-        rb.velocity = transform.right * bulletProjectileSpeed; // Using the copied projectile speed
+        rb.velocity = transform.right * velocity; // Using the copied projectile speed
     }
 
     private void SetDestroyTime()

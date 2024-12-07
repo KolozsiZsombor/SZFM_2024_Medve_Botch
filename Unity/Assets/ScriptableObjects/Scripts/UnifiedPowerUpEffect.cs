@@ -16,6 +16,8 @@ public class UnifiedPowerUp : PowerUpEffect
     public override void Apply(GameObject target)
     {
         Properties properties = target.GetComponentInChildren<Properties>();
+        PlayerAimAndShoot playerAimAndShoot = target.GetComponentInChildren<PlayerAimAndShoot>();
+
         if (properties != null)
         {
             if (attackSpeedBuff != 0) properties.attackSpeed += attackSpeedBuff;
@@ -25,6 +27,10 @@ public class UnifiedPowerUp : PowerUpEffect
             if (energyRecoverySpeedBuff != 0) properties.engRecoverySpeed += energyRecoverySpeedBuff;
             if (projectileSpeedBuff != 0) properties.projectileSpeed += projectileSpeedBuff;
             if (damageBuff != 0) properties.baseDamage += damageBuff;
+
+            
+            playerAimAndShoot.UpdateStats();
+
         }
         else
         {

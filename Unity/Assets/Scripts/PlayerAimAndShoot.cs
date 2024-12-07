@@ -7,9 +7,9 @@ public class PlayerAimAndShoot : MonoBehaviour
     [SerializeField] public GameObject weapon;
     [SerializeField] private Transform bulletSpawn;
     private GameObject bullet;
-    private float attackSpeed = 0.5f;
-    private float spread = 0.5f;
-    private int energyCost = 10;
+    private float attackSpeed;
+    private float spread;
+    private int energyCost;
     private EnergyBar energyBar;
     private GameObject bulletInst;
     private Vector2 worldPosition;
@@ -26,6 +26,17 @@ public class PlayerAimAndShoot : MonoBehaviour
         energyCost = weapon.GetComponent<Properties>().energyCost;
         energyBar = GameObject.Find("Energy bar").GetComponent<EnergyBar>();
         defaultScale = weapon.transform.localScale.y;
+    }
+
+    public void UpdateStats() 
+    
+    {
+        attackSpeed = weapon.GetComponent<Properties>().attackSpeed;
+        spread = weapon.GetComponent<Properties>().spread;
+        energyCost = weapon.GetComponent<Properties>().energyCost;
+        energyBar = GameObject.Find("Energy bar").GetComponent<EnergyBar>();
+        defaultScale = weapon.transform.localScale.y;
+        weapon.GetComponent<Properties>().sout();
     }
     private void Update()
     {
@@ -63,10 +74,12 @@ public class PlayerAimAndShoot : MonoBehaviour
         timeSinceLastShot = timeSinceLastShot + Time.deltaTime;
         if (Input.GetMouseButton(0) && timeSinceLastShot > attackSpeed && energyCost <= energyBar.slider.value && !weapon.GetComponent<EngRecover>().currentlyReloading)
         {
+
             energyBar.UseEnergy(energyCost);
-            bulletSpawn.localRotation = Quaternion.Euler(new Vector3(bulletSpawn.localRotation.x,bulletSpawn.localRotation.y,Random.Range(-spread,spread)));
+            bulletSpawn.localRotation = Quaternion.Euler(new Vector3(bulletSpawn.localRotation.x, bulletSpawn.localRotation.y, Random.Range(-spread, spread)));
             bulletInst = Instantiate(bullet, bulletSpawn.position, bulletSpawn.rotation);
             timeSinceLastShot = 0f;
+
         }
 
     }

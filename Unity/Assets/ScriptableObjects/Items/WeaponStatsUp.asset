@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 457c4f208c4f98a42ab7ed83e674d9e4, type: 3}
   m_Name: WeaponStatsUp
   m_EditorClassIdentifier: 
-  attackSpeedBuff: 10
-  spreadBuff: 10
+  attackSpeedBuff: -0.15
+  spreadBuff: 1
   energyCostBuff: 10
   energyRecoveryAmountBuff: 10
-  energyRecoverySpeedBuff: 10
+  energyRecoverySpeedBuff: -1
   projectileSpeedBuff: 10
   damageBuff: 10

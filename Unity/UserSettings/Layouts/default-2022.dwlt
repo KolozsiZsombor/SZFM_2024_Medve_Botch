@@ -398,7 +398,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fafffeff8a33ffff9033ffff143bffff363bffffae55ffffe860ffff0a61ffff9e74ffffc074ffff4e87ffff5487ffffc8eefffffcfaffff18fbffff1afbffff
+      m_ExpandedIDs: 08fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -817,9 +817,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 164.45157, y: -7.417637, z: -0.91944796}
+    m_Target: {x: 75.07951, y: -10.876747, z: -3.9424734}
     speed: 2
-    m_Value: {x: 164.45157, y: -7.417637, z: -0.91944796}
+    m_Value: {x: 75.15416, y: -10.9667015, z: -3.9343774}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -869,9 +869,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 24.349638
+    m_Target: 18.800457
     speed: 2
-    m_Value: 24.349638
+    m_Value: 17.990868
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -958,7 +958,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs: 98780000
     m_LastClickedID: 30872
-    m_ExpandedIDs: 000000005a7600005c7600005e76000060760000627600006476000066760000687600006a7600006c7600006e76000070760000727600007476000076760000787600007a7600007c7600007e7600008076000082760000227800009678000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000005c7600005e76000060760000627600006476000066760000687600006a7600006c7600006e76000070760000727600007476000076760000787600007a7600007c7600007e760000807600008276000084760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -986,7 +986,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005a7600005c7600005e76000060760000627600006476000066760000687600006a7600006c7600006e76000070760000727600007476000076760000787600007a7600007c7600007e7600008076000082760000
+    m_ExpandedIDs: 000000005c7600005e76000060760000627600006476000066760000687600006a7600006c7600006e76000070760000727600007476000076760000787600007a7600007c7600007e760000807600008276000084760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

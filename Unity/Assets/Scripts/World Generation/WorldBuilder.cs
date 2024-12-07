@@ -32,7 +32,6 @@ public class WorldBuilder : MonoBehaviour
         FreeLeftAttachment = StartingRoom.transform.Find("LeftAttachment").transform.position;
         FreeRightAttachment = StartingRoom.transform.Find("RightAttachment").transform.position;
 
-
         // We remove the Starting Room from the list of all prefabs to avoid spawning it.
         RoomPrefabs.Remove(StartingRoom);
 
@@ -41,11 +40,9 @@ public class WorldBuilder : MonoBehaviour
         while (RoomsThisLevel > 0)
         {
             GameObject SelectedRoom = RoomPrefabs[UnityEngine.Random.Range(0, numberOfRoomPrefabs)];
-            PlacePrefab(SelectedRoom, FreeRightAttachment, true);
+            PlacePrefab(SelectedRoom, UnityEngine.Random.Range(0, 2));
             RoomsThisLevel--;
         }
-
-
     }
 
     /// <summary>
@@ -53,30 +50,32 @@ public class WorldBuilder : MonoBehaviour
     /// updates the location of the free attachment points.
     /// </summary>>
     /// <param name="roomPrefab">The prefab to instantiate.</param> 
-    /// <param name="AttacherPosition">The attacher to place the prefab on.</param> 
-    /// <param name="AttachmentSide">The side where the given attachment point is. False for left and True for right.</param> 
-    public void PlacePrefab(GameObject roomPrefab, Vector3 AttacherPosition, bool AttachmentSide)
+    /// <param name="AttachmentSide">The side where the given attachment point is, 0 for left and 1 for right.</param> 
+    public void PlacePrefab(GameObject roomPrefab, int AttachmentSide)
     {
-        Vector3 LeftAttachment = roomPrefab.transform.Find("LeftAttachment").transform.position;
-        Vector3 RightAttachment = roomPrefab.transform.Find("RightAttachment").transform.position;
+        Vector3 RoomLeftAttachment = roomPrefab.transform.Find("LeftAttachment").transform.position;
+        Vector3 RoomRightAttachment = roomPrefab.transform.Find("RightAttachment").transform.position;
 
         Vector3 PlacePoint = Vector3.zero;
 
         // If the attachment point is on the left.
-        if (AttachmentSide == false)
+        if (AttachmentSide == 0)
         {
-            PlacePoint.y = AttacherPosition.y + (RightAttachment.y * -1);
-            PlacePoint.x = AttacherPosition.x + (RightAttachment.x * -1);
+            PlacePoint.y = FreeLeftAttachment.y + (RoomRightAttachment.y * -1);
+            PlacePoint.x = FreeLeftAttachment.x + (RoomRightAttachment.x * -1);
             Instantiate(roomPrefab, PlacePoint, Quaternion.identity);
+            script = FindObjectOfType<RoomDescriptor>();
+            FreeLeftAttachment = script.GetLeftPosition();
         }
-        else
+        // If the attachment point is on the right.
+        if (AttachmentSide == 1)
         {
-            PlacePoint.y = AttacherPosition.y + (LeftAttachment.y * -1);
-            PlacePoint.x = AttacherPosition.x + (LeftAttachment.x * -1);
+            PlacePoint.y = FreeRightAttachment.y + (RoomLeftAttachment.y * -1);
+            PlacePoint.x = FreeRightAttachment.x + (RoomLeftAttachment.x * -1);
             Instantiate(roomPrefab, PlacePoint, Quaternion.identity);
+            script = FindObjectOfType<RoomDescriptor>();
+            FreeRightAttachment = script.GetRightPosition();
+
         }
-        script = FindObjectOfType<RoomDescriptor>();
-        FreeLeftAttachment = script.GetLeftPosition();
-        FreeRightAttachment = script.GetRightPosition();
     }
 }

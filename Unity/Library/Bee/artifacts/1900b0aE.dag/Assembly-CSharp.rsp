@@ -427,6 +427,7 @@
 "Assets/Cainos/Third Party/Lucid Editor/Runtime/Attributes/ValidateInputAttribute.cs"
 "Assets/Cainos/Third Party/Lucid Editor/Runtime/Enum.cs"
 "Assets/Cainos/Third Party/Lucid Editor/Runtime/PropertyGroupAttribute.cs"
+"Assets/Enemies/OrcBoss/Scrips/BossAI2D.cs"
 "Assets/Interfaces/iDamageable.cs"
 "Assets/MoneyManager.cs"
 "Assets/ScriptableObjects/Scripts/AllPlayerStatsUp.cs"

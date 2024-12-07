@@ -6,6 +6,7 @@ using UnityEngine.XR;
 
 public class Enemy : MonoBehaviour, iDamageable
 {
+    Animator anim;
     [SerializeField] private float maxHealth = 10f;
     [SerializeField] private bool canSpawn = false;
     [SerializeField] private bool canShoot = false;
@@ -33,6 +34,7 @@ public class Enemy : MonoBehaviour, iDamageable
 
     private void Start()
     {
+        anim = GetComponent<Animator>();
         currentHealth = maxHealth;
         rb=GetComponent<Rigidbody2D>();
         if (canSpawn)
@@ -54,9 +56,16 @@ public class Enemy : MonoBehaviour, iDamageable
 
         if (currentHealth <= 0.1)
         {
-            DropItem();
-            Destroy(gameObject);
+            if (dropsItemOnDeath)
+            {
+                DropItem();
+            }
 
+            Destroy(gameObject);
+            if (anim != null) {
+                anim.SetTrigger("TakeDamage");
+            }
+            
             // Play sound effect
             //Drop loot
             // Go to next section in case of boss

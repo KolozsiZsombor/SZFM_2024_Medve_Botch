@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackSpeedBuff: -0.15
   spreadBuff: 1
-  energyCostBuff: 10
+  energyCostBuff: 0
   energyRecoveryAmountBuff: 10
   energyRecoverySpeedBuff: -1
   projectileSpeedBuff: 10

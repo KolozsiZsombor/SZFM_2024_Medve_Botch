@@ -36,7 +36,6 @@ public class PlayerAimAndShoot : MonoBehaviour
         energyCost = weapon.GetComponent<Properties>().energyCost;
         energyBar = GameObject.Find("Energy bar").GetComponent<EnergyBar>();
         defaultScale = weapon.transform.localScale.y;
-        weapon.GetComponent<Properties>().sout();
     }
     private void Update()
     {

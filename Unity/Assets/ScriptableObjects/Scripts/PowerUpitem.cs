@@ -6,9 +6,9 @@ public class PowerUpItem : MonoBehaviour
 {
     public PowerUpEffect powerUpEffect;
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
+        if (collision.CompareTag("Player"))
         {
             GameObject player = collision.gameObject;
 

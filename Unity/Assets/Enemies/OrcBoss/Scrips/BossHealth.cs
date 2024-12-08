@@ -37,8 +37,12 @@ public class BossHealth : MonoBehaviour,iDamageable
 
     void Die()
     {
-        
-        Instantiate(drops[Random.Range(0, drops.Length)]);
+        if (drops  != null)
+        {
+            Vector2 vector= new Vector2(gameObject.transform.position.x, gameObject.transform.position.y+0.5f);
+            Instantiate(drops[Random.Range(0, drops.Length)],vector,Quaternion.identity);
+        }
+
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
 
         

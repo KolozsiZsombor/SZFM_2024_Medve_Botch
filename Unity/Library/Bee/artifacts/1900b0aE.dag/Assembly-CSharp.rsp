@@ -440,6 +440,7 @@
 "Assets/ScriptableObjects/Scripts/UnifiedPowerUpEffect.cs"
 "Assets/Scripts/AutomaticDoor.cs"
 "Assets/Scripts/ButtonScript.cs"
+"Assets/Scripts/ChestDrop.cs"
 "Assets/Scripts/DamagePlayerOnContact.cs"
 "Assets/Scripts/Enemy Scripts/Enemy.cs"
 "Assets/Scripts/Enemy Scripts/EnemyPatrol.cs"

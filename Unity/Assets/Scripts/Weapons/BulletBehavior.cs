@@ -94,7 +94,6 @@ public class BulletBehavior : MonoBehaviour
             {
                 // Damage enemy with the copied damage value
                 idamageable.Damage(bulletDamage);
-                Debug.Log("Dealt damage " + bulletDamage);
             }
 
             // Destroy the bullet game object

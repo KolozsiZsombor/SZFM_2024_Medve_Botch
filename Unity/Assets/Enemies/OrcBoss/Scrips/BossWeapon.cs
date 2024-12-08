@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BossWeapon : MonoBehaviour
 {
-    public int attackDamage = 20;
+    public int attackDamage = 5;
 
 
     public Vector3 attackOffset;

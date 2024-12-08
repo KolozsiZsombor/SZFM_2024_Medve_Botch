@@ -589,7 +589,9 @@ GameObject:
   - component: {fileID: 800918817}
   - component: {fileID: 800918816}
   - component: {fileID: 800918815}
+  - component: {fileID: 800918820}
   - component: {fileID: 800918819}
+  - component: {fileID: 800918818}
   m_Layer: 7
   m_Name: Orc_0
   m_TagString: Untagged
@@ -678,13 +680,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800918810}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.52, y: -0.73, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -7.14, y: -0.76, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: -1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &800918815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -728,10 +730,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.05695772, y: 0.2864706}
+  m_Offset: {x: 0.09606993, y: -0.013249278}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -742,7 +744,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5474229, y: 1.3162318}
+  m_Size: {x: 0.9998529, y: 1.2377279}
   m_EdgeRadius: 0
 --- !u!50 &800918817
 Rigidbody2D:
@@ -759,7 +761,7 @@ Rigidbody2D:
   m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -771,6 +773,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &800918818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800918810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde4dde59d6ad5547a1a0fb9aa4ec168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 5
+  attackOffset: {x: 2.34, y: 0, z: 0}
+  attackRange: 1
+  attackMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  enragedDamage: 10
 --- !u!114 &800918819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,15 +801,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 800918810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53ad674227f1bf64b8526a1b37ba4619, type: 3}
+  m_Script: {fileID: 11500000, guid: eb0746dfe54908e4a85d7e63c9661703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1601803905}
-  speed: 2
-  attackRange: 5
-  attackCooldown: 1
-  damage: 5
-  maxHealth: 100
+  health: 500
+  drops:
+  - {fileID: 0}
+  isInvulnerable: 0
+--- !u!114 &800918820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800918810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1b6f53fcd1163449d72b024798805c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  isFlipped: 0
 --- !u!1 &823006729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,11 +1249,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1601803905 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3454621363590979585, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
-  m_PrefabInstance: {fileID: 1269812048363091488}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1712428049
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2898515}
   - component: {fileID: 2898514}
+  - component: {fileID: 2898516}
   m_Layer: 0
   m_Name: medve_botch_items_16
   m_TagString: Untagged
@@ -207,6 +208,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2898516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2898513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &167143290
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167143292}
   - component: {fileID: 167143291}
+  - component: {fileID: 167143293}
   m_Layer: 0
   m_Name: medve_botch_items_23
   m_TagString: Untagged
@@ -291,6 +306,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &167143293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167143290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &184732205
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,6 +329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184732207}
   - component: {fileID: 184732206}
+  - component: {fileID: 184732208}
   m_Layer: 0
   m_Name: medve_botch_items_20
   m_TagString: Untagged
@@ -375,6 +404,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &184732208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184732205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &211191882
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 482992743}
   - component: {fileID: 482992742}
+  - component: {fileID: 482992744}
   m_Layer: 0
   m_Name: medve_botch_items_15
   m_TagString: Untagged
@@ -642,6 +685,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &482992744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482992741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &493017202
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 493017204}
   - component: {fileID: 493017203}
+  - component: {fileID: 493017205}
   m_Layer: 0
   m_Name: medve_botch_items_17
   m_TagString: Untagged
@@ -726,6 +783,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &493017205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493017202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &518830648
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 518830650}
   - component: {fileID: 518830649}
+  - component: {fileID: 518830651}
   m_Layer: 0
   m_Name: medve_botch_items_11
   m_TagString: Untagged
@@ -810,6 +881,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518830651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518830648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &545086549
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577280100}
   - component: {fileID: 577280099}
+  - component: {fileID: 577280101}
   m_Layer: 0
   m_Name: medve_botch_items_8
   m_TagString: Untagged
@@ -969,6 +1054,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &577280101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577280098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &583216175
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 583216177}
   - component: {fileID: 583216176}
+  - component: {fileID: 583216178}
   m_Layer: 0
   m_Name: medve_botch_items_18
   m_TagString: Untagged
@@ -1053,6 +1152,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &583216178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583216175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &659560327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,6 +1175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 659560329}
   - component: {fileID: 659560328}
+  - component: {fileID: 659560330}
   m_Layer: 0
   m_Name: medve_botch_items_14
   m_TagString: Untagged
@@ -1137,6 +1250,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &659560330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659560327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &707720815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746256985}
   - component: {fileID: 746256984}
+  - component: {fileID: 746256986}
   m_Layer: 0
   m_Name: medve_botch_items_13
   m_TagString: Untagged
@@ -1296,6 +1423,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &746256986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746256983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &746941512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,6 +1918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 838185346}
   - component: {fileID: 838185345}
+  - component: {fileID: 838185347}
   m_Layer: 0
   m_Name: medve_botch_items_19
   m_TagString: Untagged
@@ -1852,6 +1993,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &838185347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838185344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &890553903
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +2016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 890553905}
   - component: {fileID: 890553904}
+  - component: {fileID: 890553906}
   m_Layer: 0
   m_Name: medve_botch_items_22
   m_TagString: Untagged
@@ -1936,6 +2091,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &890553906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890553903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &922185611
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,6 +2248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 967277135}
   - component: {fileID: 967277134}
+  - component: {fileID: 967277136}
   m_Layer: 0
   m_Name: medve_botch_items_10
   m_TagString: Untagged
@@ -2154,6 +2323,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &967277136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967277133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &982124675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,6 +2421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1039144169}
   - component: {fileID: 1039144168}
+  - component: {fileID: 1039144170}
   m_Layer: 0
   m_Name: medve_botch_items_5
   m_TagString: Untagged
@@ -2313,6 +2496,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1039144170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039144167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1114933100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2323,6 +2519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1114933102}
   - component: {fileID: 1114933101}
+  - component: {fileID: 1114933103}
   m_Layer: 0
   m_Name: medve_botch_items_9
   m_TagString: Untagged
@@ -2397,6 +2594,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1114933103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114933100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1219987301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2453,6 +2663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298506557}
   - component: {fileID: 1298506556}
+  - component: {fileID: 1298506558}
   m_Layer: 0
   m_Name: medve_botch_items_12
   m_TagString: Untagged
@@ -2527,6 +2738,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1298506558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298506555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1383802597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2605,6 +2829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496238959}
   - component: {fileID: 1496238958}
+  - component: {fileID: 1496238960}
   m_Layer: 0
   m_Name: medve_botch_items_7
   m_TagString: Untagged
@@ -2679,6 +2904,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1496238960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496238957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1539125427
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,6 +2927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1539125429}
   - component: {fileID: 1539125428}
+  - component: {fileID: 1539125430}
   m_Layer: 0
   m_Name: medve_botch_items_4
   m_TagString: Untagged
@@ -2763,6 +3002,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1539125430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539125427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1540994839
 GameObject:
   m_ObjectHideFlags: 0
@@ -2773,6 +3025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1540994841}
   - component: {fileID: 1540994840}
+  - component: {fileID: 1540994842}
   m_Layer: 0
   m_Name: medve_botch_items_6
   m_TagString: Untagged
@@ -2847,6 +3100,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1540994842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540994839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1601894919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2857,6 +3123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1601894921}
   - component: {fileID: 1601894920}
+  - component: {fileID: 1601894922}
   m_Layer: 0
   m_Name: medve_botch_items_1
   m_TagString: Untagged
@@ -2931,6 +3198,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1601894922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601894919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1653644702
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,6 +3221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653644704}
   - component: {fileID: 1653644703}
+  - component: {fileID: 1653644705}
   m_Layer: 0
   m_Name: medve_botch_items_2
   m_TagString: Untagged
@@ -3015,6 +3296,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1653644705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653644702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1001 &1712428049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3288,6 +3582,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1923725037}
   - component: {fileID: 1923725036}
+  - component: {fileID: 1923725038}
   m_Layer: 0
   m_Name: medve_botch_items_21
   m_TagString: Untagged
@@ -3362,6 +3657,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1923725038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923725035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &1948200237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3475,6 +3783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952972044}
   - component: {fileID: 1952972043}
+  - component: {fileID: 1952972045}
   m_Layer: 0
   m_Name: medve_botch_items_3
   m_TagString: Untagged
@@ -3549,6 +3858,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952972045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952972042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpEffect: {fileID: 0}
 --- !u!1 &2027067681
 GameObject:
   m_ObjectHideFlags: 0

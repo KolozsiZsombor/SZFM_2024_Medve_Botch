@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 140
+  controlID: 108
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 95
+  controlID: 63
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 96
+  controlID: 64
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 97
+  controlID: 65
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -321,14 +321,14 @@ MonoBehaviour:
     y: 0
     width: 877
     height: 441
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -365,7 +365,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 29294
+  m_LastSelectedObjectID: -13612
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -668,10 +668,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 632}
-      m_SelectedIDs: 6e720000
-      m_LastClickedID: 29294
-      m_ExpandedIDs: d4faffff08fbffff
+      scrollPos: {x: 0, y: 136}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 7af2ffff1afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1090,9 +1090,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.635123, y: 0.8213825, z: 1.5349056}
+    m_Target: {x: 40.60143, y: -5.9203796, z: 0.08477777}
     speed: 2
-    m_Value: {x: -6.635123, y: 0.8213825, z: 1.5349056}
+    m_Value: {x: 40.60143, y: -5.9203796, z: 0.08477777}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1142,9 +1142,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.290325
+    m_Target: 4.8144917
     speed: 2
-    m_Value: 10.290325
+    m_Value: 4.8144917
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1214,7 +1214,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Enemies/OrcBoss/Animations
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1222,16 +1222,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Enemies/OrcBoss/Animations
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\UnityGames\SZFM_2024_Medve_Botch\Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 335}
-    m_SelectedIDs: 5a860000
-    m_LastClickedID: 34394
-    m_ExpandedIDs: 000000000c840000
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 0a840000
+    m_LastClickedID: 33802
+    m_ExpandedIDs: 000000000a840000988400009e840000e284000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c840000
+    m_ExpandedIDs: 000000000a840000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1284,10 +1284,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5a720000
-    m_LastClickedInstanceID: 29274
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300000000000064480000ec82000086840000
+    m_ExpandedInstanceIDs: c62300000000000064480000ec820000868400007e850000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

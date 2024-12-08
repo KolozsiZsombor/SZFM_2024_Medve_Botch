@@ -210,6 +210,10 @@ PrefabInstance:
       propertyPath: moneyManager
       value: 
       objectReference: {fileID: 1147041423}
+    - target: {fileID: 1544564814507048017, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
+      propertyPath: range
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2992749496939012716, guid: 1e5bec29fc977564aae0522c8bbef408, type: 3}
       propertyPath: healthBar
       value: 

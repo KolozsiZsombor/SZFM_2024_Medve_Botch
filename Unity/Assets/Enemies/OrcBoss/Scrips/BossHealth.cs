@@ -8,7 +8,7 @@ public class BossHealth : MonoBehaviour,iDamageable
 
     public float health = 500;
     Animator anim;
-    [SerializeField] GameObject[] drops;
+
     public bool isInvulnerable = false;
 
     private void Start()
@@ -37,13 +37,9 @@ public class BossHealth : MonoBehaviour,iDamageable
 
     void Die()
     {
-        if (drops  != null)
-        {
-            Vector2 vector= new Vector2(gameObject.transform.position.x, gameObject.transform.position.y+0.5f);
-            Instantiate(drops[Random.Range(0, drops.Length)],vector,Quaternion.identity);
-        }
 
-        gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
+        Destroy(gameObject);
 
         
     }

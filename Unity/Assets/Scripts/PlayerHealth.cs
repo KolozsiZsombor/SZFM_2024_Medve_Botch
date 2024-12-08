@@ -33,10 +33,10 @@ public class PlayerHealth : MonoBehaviour
         healthBar.SetHealth(currenthealth);
     }
 
-    public void Heal(int health)
+    public void Heal(float health)
     {
         if (currentHealth < maxHealth){
-            currentHealth += health;
+            currentHealth += (int) health;
             if (currentHealth > maxHealth){
                 currentHealth = maxHealth;
             }

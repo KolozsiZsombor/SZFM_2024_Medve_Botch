@@ -9,7 +9,7 @@ public class PlayerAimAndShoot : MonoBehaviour
     private GameObject bullet;
     private float attackSpeed;
     private float spread;
-    private int energyCost;
+    private float energyCost;
     private EnergyBar energyBar;
     private GameObject bulletInst;
     private Vector2 worldPosition;

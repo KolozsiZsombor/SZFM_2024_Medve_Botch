@@ -9,8 +9,8 @@ public class UnifiedPlayerBuff : PowerUpEffect
     public float jumpForceBuff = 0f;
     public int maxHealthBuff = 0;
     public int currentHealthBuff = 0;
-    public int regenAmountBuff = 0;
-    public int regenRateBuff = 0;
+    public float regenAmountBuff = 0;
+    public float regenRateBuff = 0;
 
     public override void Apply(GameObject target)
     {

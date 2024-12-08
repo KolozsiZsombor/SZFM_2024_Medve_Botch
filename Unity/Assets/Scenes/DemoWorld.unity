@@ -220,7 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 6736a6eca8ab8814e8bd9ba06a0d3469, type: 2}
 --- !u!1 &167143290
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: c35feef0b2234514bb8d87e7a3c9ea95, type: 2}
 --- !u!1 &184732205
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 417a449b18dd91d4ba084fb35ef0d11d, type: 2}
 --- !u!1 &211191882
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: eee6379e1f383944392372f269e80d8e, type: 2}
 --- !u!1 &493017202
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 1e2453ae9cdda7943a3e07e73bb89f16, type: 2}
 --- !u!1 &518830648
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,7 +893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 74445f8a7ae652d41b004f7816b0ae29, type: 2}
 --- !u!1 &545086549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 8dbbf2d5fc049ab419225899c73fb9ba, type: 2}
 --- !u!1 &583216175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1164,7 +1164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 3189f899b8111a349bc2c1759c32f9b6, type: 2}
 --- !u!1 &659560327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 6b8667f8f1f45dc498710c3ce41ec192, type: 2}
 --- !u!1 &707720815
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,7 +1435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: c92134625459f0b4bbf531559a356740, type: 2}
 --- !u!1 &746941512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,7 +2005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: d243c90e5c508344998493f41a859e01, type: 2}
 --- !u!1 &890553903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,7 +2103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 8050415f5f954da4f9cf47f45220bfff, type: 2}
 --- !u!1 &922185611
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,7 +2335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: ebf1de3b20e7e204abf0c5d12fdb5629, type: 2}
 --- !u!1 &982124675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2508,7 +2508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 736b4347c5727b848bad9d85de83929f, type: 2}
 --- !u!1 &1114933100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2606,7 +2606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 4ca839c967d9b1f428e986800a4c08ce, type: 2}
 --- !u!1 &1219987301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2750,7 +2750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: d2d6a466b6d84c143b9874b94cc41a92, type: 2}
 --- !u!1 &1383802597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2916,7 +2916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: e6ee7ff1914fb8c479b77ce5cc1d12ec, type: 2}
 --- !u!1 &1539125427
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,7 +3014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 6146c5ceb871b6448b6f78b51ec06563, type: 2}
 --- !u!1 &1540994839
 GameObject:
   m_ObjectHideFlags: 0
@@ -3112,7 +3112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: e6236714816c430409c9ba11945b8c08, type: 2}
 --- !u!1 &1601894919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 73e49b63697fa2540b5435dacdcc2bb4, type: 2}
 --- !u!1 &1653644702
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,7 +3308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 86f8b3a5dfc84a54696710ef49246ee7, type: 2}
 --- !u!1001 &1712428049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3504,7 +3504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 394c362f501c0784db025d79b78b5a72, type: 2}
 --- !u!212 &1836081653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3669,7 +3669,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 433851a37ee44ec46beb76726f0a29b4, type: 2}
 --- !u!1 &1948200237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3870,7 +3870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f9ecb1b2acb804498b07fa41f9a7ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUpEffect: {fileID: 0}
+  powerUpEffect: {fileID: 11400000, guid: 8be17af3f89af964ea1d68690f8df67e, type: 2}
 --- !u!1 &2027067681
 GameObject:
   m_ObjectHideFlags: 0

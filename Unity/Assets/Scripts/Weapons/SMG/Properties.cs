@@ -14,10 +14,11 @@ public class Properties : MonoBehaviour
     [SerializeField] public GameObject bullet;
     [SerializeField] public float attackSpeed;
     [SerializeField] public float spread;
-    [SerializeField] public int energyCost;
-    [SerializeField] public int engRecoveryAmount;
+    [SerializeField] public float energyCost;
+    [SerializeField] public float engRecoveryAmount;
     [SerializeField] public float engRecoverySpeed;
     [SerializeField] public float projectileSpeed;
+    [SerializeField] public float range;
     
 
     public int sout()

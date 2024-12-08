@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerRegen : MonoBehaviour
 {
-    [SerializeField] public int regenAmount;
+    [SerializeField] public float regenAmount;
     [SerializeField] public float regenRate;
     private PlayerHealth health;
 

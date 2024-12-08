@@ -7,11 +7,12 @@ public class UnifiedPowerUp : PowerUpEffect
 {
     public float attackSpeedBuff = 0;
     public float spreadBuff = 0;
-    public int energyCostBuff = 0; // Use negative values to reduce cost
-    public int energyRecoveryAmountBuff = 0;
+    public float energyCostBuff = 0; // Use negative values to reduce cost
+    public float energyRecoveryAmountBuff = 0;
     public float energyRecoverySpeedBuff = 0;
     public float projectileSpeedBuff = 0;
     public float damageBuff = 0f;
+    public float rangeBuff = 0f;
 
     public override void Apply(GameObject target)
     {
@@ -20,6 +21,7 @@ public class UnifiedPowerUp : PowerUpEffect
 
         if (properties != null)
         {
+            if (rangeBuff !=0 ) properties.range += rangeBuff; 
             if (attackSpeedBuff != 0) properties.attackSpeed += attackSpeedBuff;
             if (spreadBuff != 0) properties.spread += spreadBuff;
             if (energyCostBuff != 0) properties.energyCost += energyCostBuff;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EngRecover : MonoBehaviour
 {
     public bool currentlyReloading = false;
-    private int engRecoveryAmount;
+    private float engRecoveryAmount;
     private float engRecoverySpeed;
     private EnergyBar energyBar;
 

@@ -14,7 +14,7 @@ public class BulletBehavior : MonoBehaviour
     [SerializeField] private Properties properties;
 
     [Header("General Bullet Stats")]
-    [SerializeField] private float destroyTime = 3f;
+    [SerializeField] private float range = 3f;
     [SerializeField] private LayerMask whatDestroysBullets;
     [SerializeField] private float bulletDamage;
 
@@ -24,6 +24,7 @@ public class BulletBehavior : MonoBehaviour
     [SerializeField] private float gravity = 1f;
     public BulletType bulletType;
     [SerializeField] private float velocity;
+
 
 
     private void Start()
@@ -39,11 +40,13 @@ public class BulletBehavior : MonoBehaviour
         // Initialize the velocity from the player’s weapon Properties component
         velocity = properties.projectileSpeed;
 
+
         // Initialize the bullet stats
         InitializeBulletStats();
 
         // Set the bullet's destroy time
         SetDestroyTime();
+
     }
 
     // Copy all stats from Properties to Bullet
@@ -51,6 +54,8 @@ public class BulletBehavior : MonoBehaviour
     {
         bulletDamage = properties.baseDamage;
         velocity = properties.projectileSpeed;
+        range = properties.range;
+
     }
 
     private void InitializeBulletStats()
@@ -78,7 +83,7 @@ public class BulletBehavior : MonoBehaviour
 
     private void SetDestroyTime()
     {
-        Destroy(gameObject, destroyTime);
+        Destroy(gameObject, range);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

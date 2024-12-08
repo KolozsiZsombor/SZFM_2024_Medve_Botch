@@ -89,50 +89,48 @@ While the main game loop will consist of shooting and scooting there will be ple
 
 ### 4.2 Characters
 
-- // TBD // Playable Characters: List character traits, abilities, and customization options.
-- Enemies:
-  - Dwarf: Simple meelee-based enemy, walks towards player and attacks when close. Medium HP.
-  - Wolf: Lunges towards player, and uses bite attack. Low HP.
-  - Trapper: Jumps around and can drop mines. The mines can be shot to set them off from afar. Medium HP, but mines kill it in one hit.
-  - Turret: Stationary, limited attack angle, projectile-based enemy. High HP.
-  - Wasp: Flying critter, approaches the player and stings, then flies away. Low HP.
-- NPCs:
-  - Shopkeeper: Offers new weapons, potions, and items. Has friendly dialogue. Human.
+#### Playable Characters:
+- Ranger: Ranged specialist with traps, medium speed, low health.
 
-### 4.4 Missions/Quests
 
-- // TBD // Main Quests: Outline the primary objectives and story progression.
-- // TBD // Side Quests: Describe optional tasks that provide additional gameplay.
+#### Enemies:
+- **Dwarf**: Simple melee enemy, medium HP.
+- **Turret**: Stationary projectile attacker, high HP.
+- **Wasp**: Flying enemy, low HP.
 
-### 4.5 Audio and Visuals
 
-- // TBD //  Graphics: Specify the art style- Pixel graphics, resolution.
-- // TBD // Sound Design: Outline the audio elements, including background music, sound effects, and voice acting.
+### 4.3 Missions/Quests
+- Main Quest: Defeat bosses and progress through worlds.
+- Side Quests: Rescue missions, artifact collection, enemy wave survival.
+
+### 4.4 Audio and Visuals
+- **Graphics**: Pixel-art style with vibrant colors and detailed animations.
+- **Sound Design**:
+  - Background music: Unique tracks for each world.
+  - Sound effects: Detailed weapon sounds, enemy growls, and environmental cues.
 
 ## 5. Other Requirements
 
 ### 5.1 Performance
-
-- We expect great performance with additional performance enchancing features, at least 60 frames per second on not-so-good computers.
+- Target performance: 60 FPS on mid-range PCs, with scalable settings.
 
 ### 5.2 Compatibility
-
-- So far only Windows. Might or might not migrate to android/IOS.
+- Initial release for Windows, with potential Android/iOS support.
 
 ### 5.3 Usability
-
-- // TBD // Describe usability standards, accessibility features, and player onboarding processes. Tutorial/Colorblind mode.
+- Onboarding: Interactive tutorial level.
+- Accessibility: Colorblind mode, scalable UI, adjustable difficulty settings.
 
 ### 5.4 Security
-
-- Security is not a problem, since this will not be an online game.
+- No security concerns since the game is offline.
 
 ## 6. Future Enhancements
 
 ### 6.1 Potential Features
-
-- // List potential features or expansions for future development. //
+- New worlds and levels.
+- Additional playable characters with unique abilities.
+- More weapons and upgrades.
+- Online co-op mode.
 
 ### 6.2 Community Feedback
-
-- // Game Will be released for testing a few weeks before deadline, and try to fix any gameplay issues found //
+- Open beta testing before launch, with a feedback collection system.

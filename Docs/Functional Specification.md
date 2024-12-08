@@ -1,128 +1,156 @@
 # Functional Specification
 
 ## 1. Current Situation
-// TBD //
+
+Currently, there are no games that fit all our needs. Existing games either lack the necessary features or are limited to platforms that don’t suit us. This results in constant switching between games, disrupting continuity and enjoyment. Multiplayer features are also limited, especially online co-op, which complicates playing together.
+
 ## 2. Dream Situation
-// TBD //
+
+We aim to create a game that consolidates all desired features, ensuring compatibility with our platform preferences. By developing this game, we can adapt and modify it to our needs over time. The absence of monetization ensures it remains free and accessible to anyone.
+
 ## 3. Game Overview
-// TBD //
 
-### 3.1. Gameplay mechanics
-// TBD //
+The game unfolds across three unique worlds, each containing 10 procedurally generated levels. These levels consist of interconnected rooms filled with enemies, shops, and optional challenge rooms. Players will progress by defeating enemies, purchasing upgrades, and tackling bosses at key milestones. Completing the game rewards players with a certificate detailing their accomplishments.
 
-- ### 3.1.1. Weapons
-  
-  - Standard assault rifle: mediocre damage bud decent accuracy and fire rate.
-  - Elemental damage infused assault rifle: slightly higher damage than its standard counterpart, but a greatly reduced fire rate, keeps the accuracy of its standard counterpart, inflicts elemental damage to enemies hit.
-  - Light machine gun: low accuracy, but high rate of fire and good damage, due to its size and weight it slows down the user significantly.
-  - Submachine gun: low damage takes a good amount of hits to take down even the weakest enemies, but it makes up for that by its crazy high fire rate and good accuracy, due to the fact that its feather light it gives a small movement buff to its user.
-  - Standard issue sniper rifle: really low fire rate, incredible accuracy and damage, basically one shots all standard enemies and even the beefier arent much of a challange for it.
-  - Anti-materiel rifle: big beefy sniper rifle for when you want to rip your enemies in half. Even lower fire rate then the  standard sniper rifle, keeps its accuracy, but bumps up the damage significantly, due to its sheer power it can pierce thru  multiple enemies and knocks the user back, becouse of its sheer size and weight it slows down the user significantly.
-  - Assault carbine: fires the same bullet as a standard assault rifle, but with slightly higher accuracy and damage, due to its  semi automatic nautre it has a much lower fire rate.
-  - Designated marksman rifle: chambered in the same round as the standard sniper rifle, has reduced damage and accurcy but   greatly inreased fire rate.
-  - Grenade launcher: fires a decently sized grenade that explodes on impact with mediocer accuracy and fire rate, but thanks to  its arrea of effect (AOE) and good damage it is great for clearing a group of weaker enemies.
-  - Rocket launcher: fires fast moving rockets that home in on enemies and explode on impact, if an enemy isnt killed by one hit  it gets concussed for a few seconds, low fire rate but great damage.
-  - Multiple melee weapons: the smaller the blade the faster the attack speed but the lower the damage can deflect enemy bullets, anything from a small kitchen knife to big two handed swords even including plasma swords that leave the enemy burning.
-  - Bow: simple bow with a decently long charge time, but with great accuracy and damage its low projectile velocity can make it a bit harder to use than other weapons.
-  - Crossbow: basic crossbow fires slower than the bow but you dont have to charge it up before firing, just like the regular bow it has great damage and accuracy and a slightly more managable projectile vellocity.
-  - Laser weapons: Fires a continous high energy laser beam, has low-is damage that ramps up the longer the trigger is held, perfect accuracy. Continously heats up and in order to avoid overheating must be used in longer bursts.
-  - Plasma cannon: A charge weapon that fires a ball of plasma that can punch thru multiple enemies loosing some damage each time, long charge time, but great damage and perfect accuracy.
-  
-### 3.1.2. Enemies
+### 3.1 Gameplay Mechanics
 
-// TBD //
+The gameplay focuses on a "shoot-and-scoot" mechanic complemented by weapons, upgrades, and character abilities.
 
-- #### 3.1.2. Skills, Abilities and Upgrades
+#### 3.1.1 Weapons
 
-- ##### **Skills are aquired by playing through the game and selecting them after specific levels:**
+Weapons range from traditional firearms to futuristic plasma cannons, providing versatility and strategic options.
 
-  - Elemental damage imuunity: Gain immunity to a specific element, can have immunity to multiple types of elements.
-  - Increased maximum health: Increases maximum health of the player by a fixed amaount can only pick once.
-  - Increased maximum energy: Increases maximum energy of the player by a fixed amaount can only pick once.
-  - Increased maximum shields: Increases maximum shields of the player by a fixed amaount can only pick once.
-  - Increased movement speed: Increases movememnt speed of the player by a percent amaount can pick up multiple.
-  - Flight: Gain the ability to fly araound for a short period of time before having to get back down and recharge.
-  - Levitation: Hover above the ground by a couple of cm-s evading all traps.
-  - Life steal: Small chance to gain a bit of health when killing an enemy.
-  - Extra energy on enemy kill: Have the chance to gain some energy after killing an emeny.
-  - Shop price reduction: Befriend the shopkeeper significantly reducing all prices.
-  - Faster weapon charge rate: Applies only to charge weapons and cuts down their charge time substantially.
+- **Standard Assault Rifle**: Balanced damage, accuracy, and fire rate.
+- **Elemental Assault Rifle**: Higher damage, slower fire rate, and elemental effects.
+- **Light Machine Gun**: High damage and fire rate, low accuracy, slows player.
+- **Submachine Gun**: Low damage, high fire rate, increases movement speed.
+- **Sniper Rifle**: One-shot kills standard enemies, slow fire rate, high accuracy.
+- **Anti-Materiel Rifle**: Devastating damage, pierces multiple enemies, heavy recoil.
+- **Assault Carbine**: Semi-automatic, higher accuracy, and damage than the standard rifle.
+- **Designated Marksman Rifle**: Sniper rifle-lite with reduced damage but higher fire rate.
+- **Grenade Launcher**: Area-of-effect explosions, good for groups of enemies.
+- **Rocket Launcher**: Homing rockets with high damage and concussive effects.
+- **Melee Weapons**: Ranges from knives to plasma swords, can deflect bullets.
+- **Bow and Crossbow**: Long-range, high-damage weapons with distinct mechanics.
+- **Laser Weapons**: Continuous beam, increasing damage over time, perfect accuracy.
+- **Plasma Cannon**: Charged shot with high damage and piercing capability.
 
-- ##### **Abilities are character specific and cannot be changed, can only have one.**
+#### 3.1.2 Enemies
 
-- ##### **Upgrades can be put on any compatible weapon, while most of them can stack there are some that you can only have one of:**
+- **Dwarf**: Melee attacker with medium HP.
+- **Wolf**: Low HP, fast, and lunges to attack.
+- **Trapper**: Drops mines, medium HP, mines explode on one hit.
+- **Turret**: Stationary, projectile attacks, high HP.
+- **Wasp**: Flying, stings the player, low HP.
 
-  - Elemental damage upgrades (mutually exclusive).
-  - Fire rate increase (stacks)
-  - Damage increase (stacks)
-  - Energy requirement reduction (doesn't stack)
-  - Accuracy increase (stacks)
+#### 3.1.3 Skills, Abilities, and Upgrades
 
-### 3.2. Different Maps, and terrain, like ice,grass, that make moving/seeing different from the base.
+- **Skills**: Acquired during gameplay, examples include elemental immunity, increased health, movement speed, or flight.
+- **Abilities**: Character-specific and non-interchangeable.
+- **Upgrades**: Applied to weapons, ranging from damage increases to elemental effects.
+
+### 3.2 Different Maps and Terrain
+
+Levels will feature diverse terrains like ice, grass, and sand, which impact movement and visibility.
 
 ### 3.3 Game World
-- Anything that resembles the earth, is known to man-kind, not scifi.
+
+The world resembles Earth, avoiding sci-fi aesthetics, focusing on familiar landscapes.
+
 ### 3.4 Target Audience
-- Anything from little kids to old grandparents, who love action, ** adventure **.
+
+The game caters to all age groups, offering action and adventure elements that appeal broadly.
+
 ## 4. Main Requirements
 
 ### 4.1 User Interface (UI)
-- // TBD // Main Menu: Describe the layout, options, and functionality.
-- // TBD // In-game HUD: Specify the information displayed to the player during gameplay.
-- // TBD // Settings Menu: Detail options for audio, controls, and graphics settings.
+
+- **Main Menu**: Game title, New Game, Continue Game, Options, and Quit in a vertical layout.
+- **In-game HUD**: Displays player HP, energy/ammo, and enemy HP. Boss HP appears prominently at the top of the screen.
+- **Settings Menu**: Options for audio (music/effects), keyboard controls, and particle effects.
+
 ### 4.2 Characters
-- // TBD // Playable Characters: List character traits, abilities, and customization options.
-- // TBD // Non-Playable Characters (NPCs): Describe their roles, behaviors, and interactions with the player.
+
+- **Playable Characters**: Characters with unique abilities and customizable appearances.
+- **NPCs**: Includes the shopkeeper who sells items and weapons.
+
 ### 4.3 Game Mechanics
-- // TBD // Combat System: Outline the mechanics of combat, including weapons, skills, and enemy behaviors.
-- // TBD // Inventory System: Describe how items are collected, stored, and used.
-- // TBD // Progression System: Detail leveling up, skill trees, and other progression mechanics.
+
+- **Combat System**: Ranged and melee combat with skill-based progression.
+- **Inventory System**: Allows players to collect and manage items effectively.
+- **Progression System**: Skill trees, weapon upgrades, and level-based rewards.
+
 ### 4.4 Missions/Quests
-- // TBD // Main Quests: Outline the primary objectives and story progression.
-- // TBD // Side Quests: Describe optional tasks that provide additional gameplay.
+
+- **Main Quests**: Progression through worlds and defeating bosses.
+- **Side Quests**: Optional challenges that provide additional rewards.
+
 ### 4.5 Audio and Visuals
-- // TBD //  Graphics: Specify the art style, resolution, and platforms.
-- // TBD // Sound Design: Outline the audio elements, including background music, sound effects, and voice acting.
+
+- **Graphics**: Pixel art style with scalable resolution.
+- **Sound Design**: Background music, dynamic sound effects, and minimal voice acting.
 
 ## 5. Other Requirements
 
 ### 5.1 Performance
-- We expect great performance with additional performance enchancing features, at least 60 frames per second on not-so-good computers.
+
+The game must run smoothly on low-end hardware, maintaining at least 60 FPS.
 
 ### 5.2 Compatibility
-- So far only Windows. Might or might not migrate to android/IOS.
+
+The initial version will be for Windows, with potential future migration to mobile platforms.
 
 ### 5.3 Usability
-- // TBD // Describe usability standards, accessibility features, and player onboarding processes.
+
+Includes an interactive tutorial, accessibility options like colorblind modes, and intuitive controls.
 
 ### 5.4 Security
-- Security is not a problem, since this will not be an online game.
 
+As a single-player game, security concerns are minimal.
 
 ## 6. Development and Implementation
+
 ### 6.1 Technology Stack
-- We will be using Unity, C#, pixel or vector graphic designing tools.
+
+The game will be developed in Unity using C#. Graphic assets will be created using tools like Aseprite for pixel art.
 
 ### 6.2 Team Roles and Responsibilities
-- // TBD //
+
+- **Project Manager**: Oversees development.
+- **Developers**: Implement game mechanics and systems.
+- **Designers**: Create levels, characters, and UI.
+- **Testers**: Ensure quality and bug-free gameplay.
 
 ### 6.3 Timeline and Milestones
-- 2024.10.14 - Start of Project
+
+- **2024-10-14**: Project Start.
+- **2024-11-30**: Initial gameplay prototype.
+- **2025-01-15**: First playable build.
+- **2025-03-01**: Beta release for testing.
+- **2025-06-01**: Final release.
 
 ## 7. Testing and Quality Assurance
+
 ### 7.1 Testing Strategies
-- Outline the testing methods to be used, including unit testing, integration testing, and user testing.
+
+The game will undergo unit, integration, and user testing to ensure quality.
 
 ### 7.2 Bug Tracking
-- Bugs will be tracked in the Class KanBan under the main table, in the Bugs column
+
+Bugs will be logged and tracked via a Kanban board.
 
 ### 7.3 Acceptance Criteria
-- A features is only counted completed, once tested by multiple people, to see if any bugs are still present, if yes, fix, if no, accept.
+
+Features will be marked as complete only after rigorous testing confirms their functionality.
 
 ## 8. Future Enhancements
 
 ### 8.1 Potential Features
-- // List potential features or expansions for future development. //
+
+- Expanded maps, additional worlds, and new characters.
+- Enhanced AI for enemies.
+- Online co-op gameplay.
 
 ### 8.2 Community Feedback
-- // Game Will be released for testing a few weeks before deadline, and try to fix any gameplay issues found //
+
+A testing phase will gather player feedback to refine gameplay before the final release.

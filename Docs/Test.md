@@ -77,3 +77,27 @@
 | AU001       | Audio Effects      | Boss plays a sound when attacking.                                                                     | Attack sound effect plays during the attack animation.                                                | ✅         |
 | AU002       | Audio Effects      | Boss plays a sound when hit.                                                                           | Hit sound effect plays during the damage animation.                                                   | ✅         |
 | AU003       | Audio Effects      | Background music plays during gameplay.                                                               | Background music loops seamlessly throughout the game.                                                | ✅         |
+# Test Cases Table
+
+| **Category**          | **Test Description**                                                                                   | **Status**    |
+|------------------------|-------------------------------------------------------------------------------------------------------|---------------|
+| **Weapons**           | Verify all weapons deal damage as specified in their descriptions.                                    | ✅ |
+|                        | Confirm melee weapons can deflect projectiles with proper timing.                                    | ✅ |
+|                        | Test elemental weapons apply status effects (e.g., burn, freeze).                                    | ✅ |
+|                        | Ensure charge weapons correctly calculate damage based on charge duration.                           | ✅ |
+| **Skills & Upgrades** | Ensure skills are unlockable only at designated points in progression.                                | ✅ |
+|                        | Validate upgrades stack or remain mutually exclusive as intended.                                    | ✅ |
+|                        | Test interactions between character-specific abilities and global skills.                            | ✅ |
+| **Enemies**           | Verify each enemy type attacks, moves, and responds correctly.                                        | ✅ |
+|                        | Test boss AI to ensure unique mechanics function properly.                                           | ✅ |
+|                        | Ensure enemies drop correct loot or rewards upon defeat.                                             | ✅ |
+| **Procedural Generation** | Test 100 procedurally generated levels to ensure no unreachable rooms or exits.                    | ✅ |
+|                        | Validate terrain types (ice, grass, sand) affect player movement appropriately.                      | ✅ |
+| **Environmental Interactions** | Validate destructible objects react properly to player and enemy attacks.                            | ✅ |
+| **HUD**               | Verify HUD elements update dynamically (e.g., health, ammo).                                         | ✅ |
+|                        | Test visibility and clarity of boss health bars.                                                     | ✅ |
+| **Inventory**         | Confirm players can pick up, equip, and discard items without issues.                                 | ✅ |
+|                        | Validate item descriptions match their in-game effects.                                              | ✅ |
+| **Frame Rate**        | Test FPS stability on low-end, mid-range, and high-end hardware.                                      | ✅ |
+|                        | Run stress tests with maximum enemies and projectiles on screen.                                     | ✅ |
+| **Loading Times**     | Measure loading times for each level and optimize for consistency.                                    | ✅ |

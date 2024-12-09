@@ -77,7 +77,7 @@
 | AU001       | Audio Effects      | Boss plays a sound when attacking.                                                                     | Attack sound effect plays during the attack animation.                                                | ✅         |
 | AU002       | Audio Effects      | Boss plays a sound when hit.                                                                           | Hit sound effect plays during the damage animation.                                                   | ✅         |
 | AU003       | Audio Effects      | Background music plays during gameplay.                                                               | Background music loops seamlessly throughout the game.                                                | ✅         |
-# Test Cases Table
+# 
 
 | **Category**          | **Test Description**                                                                                   | **Status**    |
 |------------------------|-------------------------------------------------------------------------------------------------------|---------------|
@@ -95,3 +95,22 @@
 | **Frame Rate**        | Test FPS stability on low-end, mid-range, and high-end hardware.                                      | ✅ |
 |                        | Run stress tests with maximum enemies and projectiles on screen.                                     | ✅ |
 | **Loading Times**     | Measure loading times for each level and optimize for consistency.                                    | ✅ |
+
+
+#
+
+| **Category**          | **Test Description**                                                                                   | **Status**    |
+|------------------------|-------------------------------------------------------------------------------------------------------|---------------|
+| **Weapons**           | Test accuracy differences across weapon types (e.g., sniper rifle vs. submachine gun).                | ✅ Completed  |
+| **Skills & Upgrades** | Test multiple skill stacking (e.g., movement speed upgrades).                                          | ✅ Completed  |
+| **Enemies**           | Verify flying enemies (e.g., Wasp) path correctly around obstacles.                                    | ✅ Completed  |
+|                        | Ensure turret enemies cannot attack outside their intended range or angle.                            | ✅ Completed  |
+| **Procedural Generation** | Test placement of challenge rooms to ensure they are always reachable but optional.                 | ✅ Completed  |
+|                        | Validate mini-boss and boss rooms spawn on the correct levels.                                        | ✅ Completed  |
+|                        | Ensure shop rooms spawn at designated levels with correct inventory.                                  | ✅ Completed  |
+| **Environmental Interactions** | Validate destructible environmental objects drop intended rewards (e.g., health potions).     | ✅ Completed  |
+| **HUD**               | Verify energy/ammo bars deplete and refill correctly during gameplay.                                 | ✅ Completed  |
+| **Inventory**         | Ensure inventory management works seamlessly when collecting multiple items quickly.                   | ✅ Completed  |
+| **Loading Times**     | Ensure loading times are consistent across different hardware configurations.                          | ✅ Completed  |
+|                        | Validate no crashes or freezes occur during level transitions.                                        | ✅ Completed  |
+| **Visual Effects**    | Ensure special effects (e.g., explosions, plasma shots) display correctly and do not obstruct gameplay. | ✅ Completed  |

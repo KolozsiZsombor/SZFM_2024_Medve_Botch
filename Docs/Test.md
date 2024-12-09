@@ -82,9 +82,6 @@
 | **Category**          | **Test Description**                                                                                   | **Status**    |
 |------------------------|-------------------------------------------------------------------------------------------------------|---------------|
 | **Weapons**           | Verify all weapons deal damage as specified in their descriptions.                                    | ✅ |
-|                        | Confirm melee weapons can deflect projectiles with proper timing.                                    | ✅ |
-|                        | Test elemental weapons apply status effects (e.g., burn, freeze).                                    | ✅ |
-|                        | Ensure charge weapons correctly calculate damage based on charge duration.                           | ✅ |
 | **Skills & Upgrades** | Ensure skills are unlockable only at designated points in progression.                                | ✅ |
 |                        | Validate upgrades stack or remain mutually exclusive as intended.                                    | ✅ |
 |                        | Test interactions between character-specific abilities and global skills.                            | ✅ |
@@ -92,12 +89,9 @@
 |                        | Test boss AI to ensure unique mechanics function properly.                                           | ✅ |
 |                        | Ensure enemies drop correct loot or rewards upon defeat.                                             | ✅ |
 | **Procedural Generation** | Test 100 procedurally generated levels to ensure no unreachable rooms or exits.                    | ✅ |
-|                        | Validate terrain types (ice, grass, sand) affect player movement appropriately.                      | ✅ |
 | **Environmental Interactions** | Validate destructible objects react properly to player and enemy attacks.                            | ✅ |
 | **HUD**               | Verify HUD elements update dynamically (e.g., health, ammo).                                         | ✅ |
-|                        | Test visibility and clarity of boss health bars.                                                     | ✅ |
-| **Inventory**         | Confirm players can pick up, equip, and discard items without issues.                                 | ✅ |
-|                        | Validate item descriptions match their in-game effects.                                              | ✅ |
+| **Inventory**         | Confirm players can pick up items without issues.                                                     | ✅ |
 | **Frame Rate**        | Test FPS stability on low-end, mid-range, and high-end hardware.                                      | ✅ |
 |                        | Run stress tests with maximum enemies and projectiles on screen.                                     | ✅ |
 | **Loading Times**     | Measure loading times for each level and optimize for consistency.                                    | ✅ |
